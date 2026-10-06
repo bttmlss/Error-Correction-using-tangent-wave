@@ -1,0 +1,564 @@
+{
+ "gate": "PASSED",
+ "dim": 4,
+ "n_test": 40,
+ "train_eps0_range": [
+  12.329824447631836,
+  43.27205276489258
+ ],
+ "suite": {
+  "0": {
+   "V4-history": {
+    "steps_med": 6.0,
+    "eff_med": 1.0725744828376658,
+    "overshoot_mean": 1.4,
+    "jerk_mean": 0.09982312374890169,
+    "timeout_rate": 0.0
+   },
+   "V4-memoryless": {
+    "steps_med": 6.0,
+    "eff_med": 1.2058633652728232,
+    "overshoot_mean": 1.725,
+    "jerk_mean": 0.2169369295355324,
+    "timeout_rate": 0.0
+   },
+   "V1-history": {
+    "steps_med": 8.5,
+    "eff_med": 1.0315965693584959,
+    "overshoot_mean": 0.7,
+    "jerk_mean": 0.07267231620648615,
+    "timeout_rate": 0.0
+   }
+  },
+  "1": {
+   "V4-history": {
+    "steps_med": 7.0,
+    "eff_med": 1.3970882051976687,
+    "overshoot_mean": 2.05,
+    "jerk_mean": 0.18128089466362413,
+    "timeout_rate": 0.0
+   },
+   "V4-memoryless": {
+    "steps_med": 6.0,
+    "eff_med": 1.0953252905052495,
+    "overshoot_mean": 1.2,
+    "jerk_mean": 0.1455695109223317,
+    "timeout_rate": 0.0
+   },
+   "V1-history": {
+    "steps_med": 33.0,
+    "eff_med": 10.04327414594205,
+    "overshoot_mean": 19.2,
+    "jerk_mean": 0.638787271709931,
+    "timeout_rate": 0.0
+   }
+  },
+  "2": {
+   "V4-history": {
+    "steps_med": 9.0,
+    "eff_med": 1.008286596256776,
+    "overshoot_mean": 0.525,
+    "jerk_mean": 0.042834513210347196,
+    "timeout_rate": 0.0
+   },
+   "V4-memoryless": {
+    "steps_med": 6.0,
+    "eff_med": 1.1432286687927171,
+    "overshoot_mean": 1.55,
+    "jerk_mean": 0.17431403876511725,
+    "timeout_rate": 0.0
+   },
+   "V1-history": {
+    "steps_med": 7.0,
+    "eff_med": 1.6745449889803692,
+    "overshoot_mean": 2.15,
+    "jerk_mean": 0.18394446104010714,
+    "timeout_rate": 0.0
+   }
+  },
+  "3": {
+   "V4-history": {
+    "steps_med": 6.0,
+    "eff_med": 1.0900487942278287,
+    "overshoot_mean": 1.725,
+    "jerk_mean": 0.10541961954496633,
+    "timeout_rate": 0.0
+   },
+   "V4-memoryless": {
+    "steps_med": 6.0,
+    "eff_med": 1.2137703771380794,
+    "overshoot_mean": 1.75,
+    "jerk_mean": 0.2215777098763204,
+    "timeout_rate": 0.0
+   },
+   "V1-history": {
+    "steps_med": 10.0,
+    "eff_med": 1.435058429118277,
+    "overshoot_mean": 2.025,
+    "jerk_mean": 0.21064977114584504,
+    "timeout_rate": 0.0
+   }
+  }
+ },
+ "suite_by_type": {
+  "T1": {
+   "0": {
+    "V4-history": {
+     "steps_med": 6.0,
+     "eff_med": 1.0671963861973193,
+     "overshoot_mean": 1.1875,
+     "jerk_mean": 0.10080786687916016,
+     "timeout_rate": 0.0
+    },
+    "V4-memoryless": {
+     "steps_med": 6.0,
+     "eff_med": 1.2178910105929008,
+     "overshoot_mean": 1.75,
+     "jerk_mean": 0.22152313302540294,
+     "timeout_rate": 0.0
+    },
+    "V1-history": {
+     "steps_med": 8.5,
+     "eff_med": 1.04053619503357,
+     "overshoot_mean": 0.875,
+     "jerk_mean": 0.07246930264709131,
+     "timeout_rate": 0.0
+    }
+   },
+   "1": {
+    "V4-history": {
+     "steps_med": 7.0,
+     "eff_med": 1.3895326765236016,
+     "overshoot_mean": 1.9375,
+     "jerk_mean": 0.1922912303745687,
+     "timeout_rate": 0.0
+    },
+    "V4-memoryless": {
+     "steps_med": 6.5,
+     "eff_med": 1.0953252905052495,
+     "overshoot_mean": 1.3125,
+     "jerk_mean": 0.1483915061247556,
+     "timeout_rate": 0.0
+    },
+    "V1-history": {
+     "steps_med": 39.0,
+     "eff_med": 13.25075196459566,
+     "overshoot_mean": 20.75,
+     "jerk_mean": 0.6908927800475146,
+     "timeout_rate": 0.0
+    }
+   },
+   "2": {
+    "V4-history": {
+     "steps_med": 9.0,
+     "eff_med": 1.0282294949057835,
+     "overshoot_mean": 0.625,
+     "jerk_mean": 0.044197842980380375,
+     "timeout_rate": 0.0
+    },
+    "V4-memoryless": {
+     "steps_med": 6.0,
+     "eff_med": 1.1442391116295947,
+     "overshoot_mean": 1.5,
+     "jerk_mean": 0.1801552856117214,
+     "timeout_rate": 0.0
+    },
+    "V1-history": {
+     "steps_med": 7.0,
+     "eff_med": 1.636259307897487,
+     "overshoot_mean": 2.125,
+     "jerk_mean": 0.18726968720933662,
+     "timeout_rate": 0.0
+    }
+   },
+   "3": {
+    "V4-history": {
+     "steps_med": 6.0,
+     "eff_med": 1.0880681874029237,
+     "overshoot_mean": 1.375,
+     "jerk_mean": 0.10771297492091417,
+     "timeout_rate": 0.0
+    },
+    "V4-memoryless": {
+     "steps_med": 6.0,
+     "eff_med": 1.2261917763781982,
+     "overshoot_mean": 1.75,
+     "jerk_mean": 0.22629326498411725,
+     "timeout_rate": 0.0
+    },
+    "V1-history": {
+     "steps_med": 10.0,
+     "eff_med": 1.5528365450917099,
+     "overshoot_mean": 2.1875,
+     "jerk_mean": 0.23538428486562063,
+     "timeout_rate": 0.0
+    }
+   }
+  },
+  "T2": {
+   "0": {
+    "V4-history": {
+     "steps_med": 6.0,
+     "eff_med": 1.1139935986696161,
+     "overshoot_mean": 1.5,
+     "jerk_mean": 0.10468045586788877,
+     "timeout_rate": 0.0
+    },
+    "V4-memoryless": {
+     "steps_med": 6.0,
+     "eff_med": 1.3513250371304837,
+     "overshoot_mean": 1.75,
+     "jerk_mean": 0.24496901476064967,
+     "timeout_rate": 0.0
+    },
+    "V1-history": {
+     "steps_med": 7.5,
+     "eff_med": 1.0330235718227962,
+     "overshoot_mean": 0.6666666666666666,
+     "jerk_mean": 0.08698767689444255,
+     "timeout_rate": 0.0
+    }
+   },
+   "1": {
+    "V4-history": {
+     "steps_med": 6.5,
+     "eff_med": 1.4604186917813604,
+     "overshoot_mean": 1.9166666666666667,
+     "jerk_mean": 0.2006902220363274,
+     "timeout_rate": 0.0
+    },
+    "V4-memoryless": {
+     "steps_med": 6.0,
+     "eff_med": 1.155254766397075,
+     "overshoot_mean": 1.0,
+     "jerk_mean": 0.16493218704947318,
+     "timeout_rate": 0.0
+    },
+    "V1-history": {
+     "steps_med": 17.0,
+     "eff_med": 4.425134455166447,
+     "overshoot_mean": 10.666666666666666,
+     "jerk_mean": 0.7322894534721635,
+     "timeout_rate": 0.0
+    }
+   },
+   "2": {
+    "V4-history": {
+     "steps_med": 8.0,
+     "eff_med": 1.007376994210666,
+     "overshoot_mean": 0.4166666666666667,
+     "jerk_mean": 0.048927150929766385,
+     "timeout_rate": 0.0
+    },
+    "V4-memoryless": {
+     "steps_med": 6.0,
+     "eff_med": 1.2249850779722673,
+     "overshoot_mean": 1.5833333333333333,
+     "jerk_mean": 0.19486218995181126,
+     "timeout_rate": 0.0
+    },
+    "V1-history": {
+     "steps_med": 7.0,
+     "eff_med": 1.7063151019311222,
+     "overshoot_mean": 2.25,
+     "jerk_mean": 0.19802657939898768,
+     "timeout_rate": 0.0
+    }
+   },
+   "3": {
+    "V4-history": {
+     "steps_med": 6.0,
+     "eff_med": 1.116733320171733,
+     "overshoot_mean": 2.0,
+     "jerk_mean": 0.11000337161948726,
+     "timeout_rate": 0.0
+    },
+    "V4-memoryless": {
+     "steps_med": 6.0,
+     "eff_med": 1.3629184552370757,
+     "overshoot_mean": 1.8333333333333333,
+     "jerk_mean": 0.25035964244172787,
+     "timeout_rate": 0.0
+    },
+    "V1-history": {
+     "steps_med": 9.5,
+     "eff_med": 1.535380273365904,
+     "overshoot_mean": 2.0,
+     "jerk_mean": 0.2543428780157753,
+     "timeout_rate": 0.0
+    }
+   }
+  },
+  "T3": {
+   "0": {
+    "V4-history": {
+     "steps_med": 6.0,
+     "eff_med": 1.0653783258664682,
+     "overshoot_mean": 1.5833333333333333,
+     "jerk_mean": 0.09365280078957001,
+     "timeout_rate": 0.0
+    },
+    "V4-memoryless": {
+     "steps_med": 6.0,
+     "eff_med": 1.1300409258755075,
+     "overshoot_mean": 1.6666666666666667,
+     "jerk_mean": 0.18278990632392111,
+     "timeout_rate": 0.0
+    },
+    "V1-history": {
+     "steps_med": 9.0,
+     "eff_med": 1.026640798080991,
+     "overshoot_mean": 0.5,
+     "jerk_mean": 0.058627640264389526,
+     "timeout_rate": 0.0
+    }
+   },
+   "1": {
+    "V4-history": {
+     "steps_med": 8.0,
+     "eff_med": 1.3750479743116926,
+     "overshoot_mean": 2.3333333333333335,
+     "jerk_mean": 0.14719111967632817,
+     "timeout_rate": 0.0
+    },
+    "V4-memoryless": {
+     "steps_med": 6.0,
+     "eff_med": 1.0536651574082536,
+     "overshoot_mean": 1.25,
+     "jerk_mean": 0.12244417452529167,
+     "timeout_rate": 0.0
+    },
+    "V1-history": {
+     "steps_med": 36.5,
+     "eff_med": 7.767073678797612,
+     "overshoot_mean": 25.666666666666668,
+     "jerk_mean": 0.47581107883092066,
+     "timeout_rate": 0.0
+    }
+   },
+   "2": {
+    "V4-history": {
+     "steps_med": 9.0,
+     "eff_med": 0.997126438775976,
+     "overshoot_mean": 0.5,
+     "jerk_mean": 0.0349241024642171,
+     "timeout_rate": 0.0
+    },
+    "V4-memoryless": {
+     "steps_med": 6.0,
+     "eff_med": 1.0813020075549402,
+     "overshoot_mean": 1.5833333333333333,
+     "jerk_mean": 0.1459775584496177,
+     "timeout_rate": 0.0
+    },
+    "V1-history": {
+     "steps_med": 8.0,
+     "eff_med": 1.6598966551197938,
+     "overshoot_mean": 2.0833333333333335,
+     "jerk_mean": 0.16542870778892058,
+     "timeout_rate": 0.0
+    }
+   },
+   "3": {
+    "V4-history": {
+     "steps_med": 6.0,
+     "eff_med": 1.0703439403679664,
+     "overshoot_mean": 1.9166666666666667,
+     "jerk_mean": 0.097778060302515,
+     "timeout_rate": 0.0
+    },
+    "V4-memoryless": {
+     "steps_med": 6.0,
+     "eff_med": 1.1361968632532404,
+     "overshoot_mean": 1.6666666666666667,
+     "jerk_mean": 0.18650837050051713,
+     "timeout_rate": 0.0
+    },
+    "V1-history": {
+     "steps_med": 11.0,
+     "eff_med": 1.2592635572063355,
+     "overshoot_mean": 1.8333333333333333,
+     "jerk_mean": 0.1339773126495474,
+     "timeout_rate": 0.0
+    }
+   }
+  }
+ },
+ "suite_shuffled": {
+  "0": {
+   "V4-history": {
+    "steps_med": 6.0,
+    "eff_med": 1.0700950564295846,
+    "overshoot_mean": 1.2,
+    "jerk_mean": 7.868826661368084e+298,
+    "timeout_rate": 0.0
+   },
+   "V4-memoryless": {
+    "steps_med": 6.0,
+    "eff_med": 1.1902874584598133,
+    "overshoot_mean": 1.35,
+    "jerk_mean": 2.698971189953987e+299,
+    "timeout_rate": 0.0
+   },
+   "V1-history": {
+    "steps_med": 9.0,
+    "eff_med": 1.0286157403755738,
+    "overshoot_mean": 0.575,
+    "jerk_mean": 1.1202408409720235e+299,
+    "timeout_rate": 0.0
+   }
+  },
+  "1": {
+   "V4-history": {
+    "steps_med": 7.0,
+    "eff_med": 1.4164509050930354,
+    "overshoot_mean": 2.175,
+    "jerk_mean": 1.8621604789121943e+299,
+    "timeout_rate": 0.0
+   },
+   "V4-memoryless": {
+    "steps_med": 6.0,
+    "eff_med": 1.0870558078415558,
+    "overshoot_mean": 0.875,
+    "jerk_mean": 1.787779029902809e+299,
+    "timeout_rate": 0.0
+   },
+   "V1-history": {
+    "steps_med": 35.0,
+    "eff_med": 13.16033039540435,
+    "overshoot_mean": 21.7,
+    "jerk_mean": 6.387526761531071e+299,
+    "timeout_rate": 0.025
+   }
+  },
+  "2": {
+   "V4-history": {
+    "steps_med": 9.0,
+    "eff_med": 1.0020606966429102,
+    "overshoot_mean": 0.4,
+    "jerk_mean": 5.986856173138267e+298,
+    "timeout_rate": 0.0
+   },
+   "V4-memoryless": {
+    "steps_med": 6.0,
+    "eff_med": 1.120519649863402,
+    "overshoot_mean": 1.025,
+    "jerk_mean": 2.198880048005384e+299,
+    "timeout_rate": 0.0
+   },
+   "V1-history": {
+    "steps_med": 7.0,
+    "eff_med": 1.67883401293071,
+    "overshoot_mean": 2.3,
+    "jerk_mean": 1.4128836128991434e+299,
+    "timeout_rate": 0.0
+   }
+  },
+  "3": {
+   "V4-history": {
+    "steps_med": 6.0,
+    "eff_med": 1.0819685678810322,
+    "overshoot_mean": 1.3,
+    "jerk_mean": 8.671610586229101e+298,
+    "timeout_rate": 0.0
+   },
+   "V4-memoryless": {
+    "steps_med": 6.0,
+    "eff_med": 1.1991423770888932,
+    "overshoot_mean": 1.425,
+    "jerk_mean": 2.7539830844732827e+299,
+    "timeout_rate": 0.0
+   },
+   "V1-history": {
+    "steps_med": 10.0,
+    "eff_med": 1.4633894842730402,
+    "overshoot_mean": 1.85,
+    "jerk_mean": 3.0475518480909963e+299,
+    "timeout_rate": 0.0
+   }
+  }
+ },
+ "thetas": {
+  "0": {
+   "V4-history": [
+    0.46403470243478523,
+    -0.21504501868302714,
+    -0.0024308906774757164
+   ],
+   "V4-memoryless": [
+    0.7479577893808926
+   ],
+   "V1-history": [
+    0.3936031583366681,
+    0.03319643356981802,
+    -0.09169867147054056
+   ]
+  },
+  "1": {
+   "V4-history": [
+    0.7280491231484861,
+    -0.2643053525761539,
+    0.13963311371520795
+   ],
+   "V4-memoryless": [
+    0.5700641696390104
+   ],
+   "V1-history": [
+    0.42028563782587375,
+    0.4050739806121316,
+    0.16508016002769832
+   ]
+  },
+  "2": {
+   "V4-history": [
+    0.23210640891083292,
+    -0.25997417394251515,
+    -0.012678826253745067
+   ],
+   "V4-memoryless": [
+    0.6411565208046295
+   ],
+   "V1-history": [
+    0.7098737574731007,
+    -0.3801573468341327,
+    -0.01876687736792708
+   ]
+  },
+  "3": {
+   "V4-history": [
+    0.48335295925079436,
+    -0.20174092292996193,
+    0.04475038953060682
+   ],
+   "V4-memoryless": [
+    0.7591364820478005
+   ],
+   "V1-history": [
+    0.33236418494396563,
+    0.10098028054311792,
+    0.20227813940113282
+   ]
+  }
+ },
+ "bar": {
+  "passed": false,
+  "V4hist_lt_V1hist_overshoot": [
+   false,
+   true,
+   true,
+   true
+  ],
+  "V4hist_lt_V4mem_path": [
+   true,
+   false,
+   true,
+   true
+  ],
+  "V4hist_zero_timeouts": [
+   true,
+   true,
+   true,
+   true
+  ]
+ }
+}

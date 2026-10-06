@@ -1,0 +1,692 @@
+{
+ "gate": "PASSED",
+ "dim": 4,
+ "verifiers": {
+  "V1": {
+   "desc": "improvement only",
+   "folds": [
+    {
+     "held_chain": "size",
+     "p_ref": [
+      0.32589384776645236,
+      -0.16233945207557018,
+      0.07009604125180544
+     ],
+     "theta_hist": [
+      0.3936031583366681,
+      0.03319643356981802,
+      -0.09169867147054056
+     ],
+     "theta_mem": [
+      0.8537325011861374
+     ],
+     "ref": {
+      "steps_med": 7.0,
+      "steps_q1": 6.25,
+      "steps_q3": 7.0,
+      "eff_med": 1.0375013949942915,
+      "overshoot_mean": 0.5,
+      "timeout_rate": 0.0
+     },
+     "pg_history": {
+      "steps_med": 8.0,
+      "steps_q1": 6.5,
+      "steps_q3": 8.0,
+      "eff_med": 1.0666274959810398,
+      "overshoot_mean": 0.5,
+      "timeout_rate": 0.0
+     },
+     "pg_memoryless": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.3376543043277094,
+      "overshoot_mean": 1.8333333333333333,
+      "timeout_rate": 0.0
+     }
+    },
+    {
+     "held_chain": "temperature",
+     "p_ref": [
+      0.3691940503737652,
+      -0.18573197239385184,
+      0.029352608242681547
+     ],
+     "theta_hist": [
+      0.42028563782587375,
+      0.4050739806121316,
+      0.16508016002769832
+     ],
+     "theta_mem": [
+      0.36669594708064684
+     ],
+     "ref": {
+      "steps_med": 7.0,
+      "steps_q1": 6.25,
+      "steps_q3": 7.0,
+      "eff_med": 1.0384322609188121,
+      "overshoot_mean": 1.0,
+      "timeout_rate": 0.0
+     },
+     "pg_history": {
+      "steps_med": 19.5,
+      "steps_q1": 12.25,
+      "steps_q3": 32.75,
+      "eff_med": 5.696394321107082,
+      "overshoot_mean": 17.5,
+      "timeout_rate": 0.0
+     },
+     "pg_memoryless": {
+      "steps_med": 8.5,
+      "steps_q1": 7.25,
+      "steps_q3": 9.0,
+      "eff_med": 1.0528684686963912,
+      "overshoot_mean": 0.8333333333333334,
+      "timeout_rate": 0.0
+     }
+    },
+    {
+     "held_chain": "brightness",
+     "p_ref": [
+      0.2976559215841379,
+      -0.06677550361637641,
+      -0.0008915028510128598
+     ],
+     "theta_hist": [
+      0.7098737574731007,
+      -0.3801573468341327,
+      -0.01876687736792708
+     ],
+     "theta_mem": [
+      0.22362852617936702
+     ],
+     "ref": {
+      "steps_med": 8.0,
+      "steps_q1": 8.0,
+      "steps_q3": 8.75,
+      "eff_med": 0.9980811980401658,
+      "overshoot_mean": 0.3333333333333333,
+      "timeout_rate": 0.0
+     },
+     "pg_history": {
+      "steps_med": 7.0,
+      "steps_q1": 6.25,
+      "steps_q3": 7.0,
+      "eff_med": 1.5998336623273963,
+      "overshoot_mean": 2.0,
+      "timeout_rate": 0.0
+     },
+     "pg_memoryless": {
+      "steps_med": 11.5,
+      "steps_q1": 10.25,
+      "steps_q3": 12.0,
+      "eff_med": 1.0029055392570259,
+      "overshoot_mean": 0.16666666666666666,
+      "timeout_rate": 0.0
+     }
+    },
+    {
+     "held_chain": "speed",
+     "p_ref": [
+      0.39190517141004655,
+      -0.09744402363839991,
+      -0.014769425147887358
+     ],
+     "theta_hist": [
+      0.33236418494396563,
+      0.10098028054311792,
+      0.20227813940113282
+     ],
+     "theta_mem": [
+      0.17473678316212862
+     ],
+     "ref": {
+      "steps_med": 7.0,
+      "steps_q1": 6.25,
+      "steps_q3": 7.75,
+      "eff_med": 1.0528562691018148,
+      "overshoot_mean": 1.5,
+      "timeout_rate": 0.0
+     },
+     "pg_history": {
+      "steps_med": 8.0,
+      "steps_q1": 8.0,
+      "steps_q3": 8.0,
+      "eff_med": 1.8989216597879772,
+      "overshoot_mean": 1.8333333333333333,
+      "timeout_rate": 0.0
+     },
+     "pg_memoryless": {
+      "steps_med": 13.0,
+      "steps_q1": 10.5,
+      "steps_q3": 14.0,
+      "eff_med": 0.9900350103914561,
+      "overshoot_mean": 0.3333333333333333,
+      "timeout_rate": 0.0
+     }
+    }
+   ]
+  },
+  "V2": {
+   "desc": "improvement - overshoot penalty",
+   "folds": [
+    {
+     "held_chain": "size",
+     "p_ref": [
+      0.32589384776645236,
+      -0.16233945207557018,
+      0.07009604125180544
+     ],
+     "theta_hist": [
+      0.6249632310900883,
+      -0.2187620907456877,
+      -0.172194361148648
+     ],
+     "theta_mem": [
+      0.36714980825516147
+     ],
+     "ref": {
+      "steps_med": 7.0,
+      "steps_q1": 6.25,
+      "steps_q3": 7.0,
+      "eff_med": 1.0375013949942915,
+      "overshoot_mean": 0.5,
+      "timeout_rate": 0.0
+     },
+     "pg_history": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.5300705475055656,
+      "overshoot_mean": 1.1666666666666667,
+      "timeout_rate": 0.0
+     },
+     "pg_memoryless": {
+      "steps_med": 8.0,
+      "steps_q1": 6.5,
+      "steps_q3": 8.0,
+      "eff_med": 1.0546868342824012,
+      "overshoot_mean": 0.6666666666666666,
+      "timeout_rate": 0.0
+     }
+    },
+    {
+     "held_chain": "temperature",
+     "p_ref": [
+      0.3691940503737652,
+      -0.18573197239385184,
+      0.029352608242681547
+     ],
+     "theta_hist": [
+      0.4803487414791675,
+      -0.03167044084976523,
+      0.06351513924621649
+     ],
+     "theta_mem": [
+      0.8463228688670342
+     ],
+     "ref": {
+      "steps_med": 7.0,
+      "steps_q1": 6.25,
+      "steps_q3": 7.0,
+      "eff_med": 1.0384322609188121,
+      "overshoot_mean": 1.0,
+      "timeout_rate": 0.0
+     },
+     "pg_history": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.75,
+      "eff_med": 1.0775988978079059,
+      "overshoot_mean": 0.8333333333333334,
+      "timeout_rate": 0.0
+     },
+     "pg_memoryless": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.3264977675397758,
+      "overshoot_mean": 2.1666666666666665,
+      "timeout_rate": 0.0
+     }
+    },
+    {
+     "held_chain": "brightness",
+     "p_ref": [
+      0.2976559215841379,
+      -0.06677550361637641,
+      -0.0008915028510128598
+     ],
+     "theta_hist": [
+      0.6008672423270521,
+      -0.0631634687266909,
+      0.08755092144547481
+     ],
+     "theta_mem": [
+      0.7390600627011161
+     ],
+     "ref": {
+      "steps_med": 8.0,
+      "steps_q1": 8.0,
+      "steps_q3": 8.75,
+      "eff_med": 0.9980811980401658,
+      "overshoot_mean": 0.3333333333333333,
+      "timeout_rate": 0.0
+     },
+     "pg_history": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.247475155978723,
+      "overshoot_mean": 1.5,
+      "timeout_rate": 0.0
+     },
+     "pg_memoryless": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.3078354256215312,
+      "overshoot_mean": 2.1666666666666665,
+      "timeout_rate": 0.0
+     }
+    },
+    {
+     "held_chain": "speed",
+     "p_ref": [
+      0.39190517141004655,
+      -0.09744402363839991,
+      -0.014769425147887358
+     ],
+     "theta_hist": [
+      0.7254707426297642,
+      -0.050867358693053595,
+      0.03319634791358814
+     ],
+     "theta_mem": [
+      0.599799649452668
+     ],
+     "ref": {
+      "steps_med": 7.0,
+      "steps_q1": 6.25,
+      "steps_q3": 7.75,
+      "eff_med": 1.0528562691018148,
+      "overshoot_mean": 1.5,
+      "timeout_rate": 0.0
+     },
+     "pg_history": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.4747261700672287,
+      "overshoot_mean": 1.5,
+      "timeout_rate": 0.0
+     },
+     "pg_memoryless": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.2986384575599281,
+      "overshoot_mean": 1.3333333333333333,
+      "timeout_rate": 0.0
+     }
+    }
+   ]
+  },
+  "V3": {
+   "desc": "improvement - path-cost penalty",
+   "folds": [
+    {
+     "held_chain": "size",
+     "p_ref": [
+      0.32589384776645236,
+      -0.16233945207557018,
+      0.07009604125180544
+     ],
+     "theta_hist": [
+      0.8331303509204198,
+      -0.19727941191774423,
+      -0.10632682716979698
+     ],
+     "theta_mem": [
+      0.679633730418652
+     ],
+     "ref": {
+      "steps_med": 7.0,
+      "steps_q1": 6.25,
+      "steps_q3": 7.0,
+      "eff_med": 1.0375013949942915,
+      "overshoot_mean": 0.5,
+      "timeout_rate": 0.0
+     },
+     "pg_history": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.7919070694604189,
+      "overshoot_mean": 2.1666666666666665,
+      "timeout_rate": 0.0
+     },
+     "pg_memoryless": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.1837062409296615,
+      "overshoot_mean": 1.6666666666666667,
+      "timeout_rate": 0.0
+     }
+    },
+    {
+     "held_chain": "temperature",
+     "p_ref": [
+      0.3691940503737652,
+      -0.18573197239385184,
+      0.029352608242681547
+     ],
+     "theta_hist": [
+      0.6688534886173948,
+      -0.07890498385705556,
+      0.02416917977221579
+     ],
+     "theta_mem": [
+      0.7022989800033833
+     ],
+     "ref": {
+      "steps_med": 7.0,
+      "steps_q1": 6.25,
+      "steps_q3": 7.0,
+      "eff_med": 1.0384322609188121,
+      "overshoot_mean": 1.0,
+      "timeout_rate": 0.0
+     },
+     "pg_history": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.191681367963104,
+      "overshoot_mean": 1.8333333333333333,
+      "timeout_rate": 0.0
+     },
+     "pg_memoryless": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.2020064372915942,
+      "overshoot_mean": 1.6666666666666667,
+      "timeout_rate": 0.0
+     }
+    },
+    {
+     "held_chain": "brightness",
+     "p_ref": [
+      0.2976559215841379,
+      -0.06677550361637641,
+      -0.0008915028510128598
+     ],
+     "theta_hist": [
+      0.7686197439731762,
+      0.006961319430124367,
+      0.010917225773262408
+     ],
+     "theta_mem": [
+      0.7039185942727426
+     ],
+     "ref": {
+      "steps_med": 8.0,
+      "steps_q1": 8.0,
+      "steps_q3": 8.75,
+      "eff_med": 0.9980811980401658,
+      "overshoot_mean": 0.3333333333333333,
+      "timeout_rate": 0.0
+     },
+     "pg_history": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.3562405060657514,
+      "overshoot_mean": 2.1666666666666665,
+      "timeout_rate": 0.0
+     },
+     "pg_memoryless": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.2741819185558585,
+      "overshoot_mean": 2.0,
+      "timeout_rate": 0.0
+     }
+    },
+    {
+     "held_chain": "speed",
+     "p_ref": [
+      0.39190517141004655,
+      -0.09744402363839991,
+      -0.014769425147887358
+     ],
+     "theta_hist": [
+      0.7087685908531469,
+      -0.028028161689573727,
+      -0.05575289055831348
+     ],
+     "theta_mem": [
+      0.8049402196207113
+     ],
+     "ref": {
+      "steps_med": 7.0,
+      "steps_q1": 6.25,
+      "steps_q3": 7.75,
+      "eff_med": 1.0528562691018148,
+      "overshoot_mean": 1.5,
+      "timeout_rate": 0.0
+     },
+     "pg_history": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.398415856210021,
+      "overshoot_mean": 2.0,
+      "timeout_rate": 0.0
+     },
+     "pg_memoryless": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.5983876357085274,
+      "overshoot_mean": 1.6666666666666667,
+      "timeout_rate": 0.0
+     }
+    }
+   ]
+  },
+  "V4": {
+   "desc": "improvement - stability (action-smoothing) penalty",
+   "folds": [
+    {
+     "held_chain": "size",
+     "p_ref": [
+      0.32589384776645236,
+      -0.16233945207557018,
+      0.07009604125180544
+     ],
+     "theta_hist": [
+      0.46403470243478523,
+      -0.21504501868302714,
+      -0.0024308906774757164
+     ],
+     "theta_mem": [
+      0.7479577893808926
+     ],
+     "ref": {
+      "steps_med": 7.0,
+      "steps_q1": 6.25,
+      "steps_q3": 7.0,
+      "eff_med": 1.0375013949942915,
+      "overshoot_mean": 0.5,
+      "timeout_rate": 0.0
+     },
+     "pg_history": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.103640817807826,
+      "overshoot_mean": 1.3333333333333333,
+      "timeout_rate": 0.0
+     },
+     "pg_memoryless": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.2418976566112863,
+      "overshoot_mean": 2.0,
+      "timeout_rate": 0.0
+     }
+    },
+    {
+     "held_chain": "temperature",
+     "p_ref": [
+      0.3691940503737652,
+      -0.18573197239385184,
+      0.029352608242681547
+     ],
+     "theta_hist": [
+      0.7280491231484861,
+      -0.2643053525761539,
+      0.13963311371520795
+     ],
+     "theta_mem": [
+      0.5700641696390104
+     ],
+     "ref": {
+      "steps_med": 7.0,
+      "steps_q1": 6.25,
+      "steps_q3": 7.0,
+      "eff_med": 1.0384322609188121,
+      "overshoot_mean": 1.0,
+      "timeout_rate": 0.0
+     },
+     "pg_history": {
+      "steps_med": 6.5,
+      "steps_q1": 6.0,
+      "steps_q3": 10.0,
+      "eff_med": 1.388753657332943,
+      "overshoot_mean": 2.3333333333333335,
+      "timeout_rate": 0.0
+     },
+     "pg_memoryless": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.1158825396494765,
+      "overshoot_mean": 1.0,
+      "timeout_rate": 0.0
+     }
+    },
+    {
+     "held_chain": "brightness",
+     "p_ref": [
+      0.2976559215841379,
+      -0.06677550361637641,
+      -0.0008915028510128598
+     ],
+     "theta_hist": [
+      0.23210640891083292,
+      -0.25997417394251515,
+      -0.012678826253745067
+     ],
+     "theta_mem": [
+      0.6411565208046295
+     ],
+     "ref": {
+      "steps_med": 8.0,
+      "steps_q1": 8.0,
+      "steps_q3": 8.75,
+      "eff_med": 0.9980811980401658,
+      "overshoot_mean": 0.3333333333333333,
+      "timeout_rate": 0.0
+     },
+     "pg_history": {
+      "steps_med": 8.0,
+      "steps_q1": 8.0,
+      "steps_q3": 8.75,
+      "eff_med": 1.0303826589162306,
+      "overshoot_mean": 0.3333333333333333,
+      "timeout_rate": 0.0
+     },
+     "pg_memoryless": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.21629860354389,
+      "overshoot_mean": 1.5,
+      "timeout_rate": 0.0
+     }
+    },
+    {
+     "held_chain": "speed",
+     "p_ref": [
+      0.39190517141004655,
+      -0.09744402363839991,
+      -0.014769425147887358
+     ],
+     "theta_hist": [
+      0.48335295925079436,
+      -0.20174092292996193,
+      0.04475038953060682
+     ],
+     "theta_mem": [
+      0.7591364820478005
+     ],
+     "ref": {
+      "steps_med": 7.0,
+      "steps_q1": 6.25,
+      "steps_q3": 7.75,
+      "eff_med": 1.0528562691018148,
+      "overshoot_mean": 1.5,
+      "timeout_rate": 0.0
+     },
+     "pg_history": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.1566739554347851,
+      "overshoot_mean": 1.0,
+      "timeout_rate": 0.0
+     },
+     "pg_memoryless": {
+      "steps_med": 6.0,
+      "steps_q1": 6.0,
+      "steps_q3": 6.0,
+      "eff_med": 1.5259986140531,
+      "overshoot_mean": 1.6666666666666667,
+      "timeout_rate": 0.0
+     }
+    }
+   ]
+  }
+ },
+ "penalties": {
+  "LAM_OV": 5.0,
+  "MU_PC": 20.0,
+  "LAM_ST": 10.0
+ },
+ "bar": {
+  "passed": false,
+  "V2_lt_V1": [
+   true,
+   true,
+   false,
+   true
+  ],
+  "V2_negative": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "V1_positive": [
+   true,
+   true,
+   false,
+   true
+  ]
+ }
+}

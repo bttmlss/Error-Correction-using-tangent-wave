@@ -1,0 +1,916 @@
+{
+ "gate": "PASSED",
+ "ladder": {
+  "1": 0.591058586194933,
+  "4": 0.8265574833065894,
+  "16": 0.9746835745759019,
+  "64": 0.999954899768294
+ },
+ "dims": {
+  "4": {
+   "sigma": 1.330641269683838,
+   "tol_new": 5.322565078735352,
+   "folds": [
+    {
+     "held_chain": "size",
+     "p_mem": [
+      0.3385650973463559
+     ],
+     "p_hist": [
+      0.32589384776645236,
+      -0.16233945207557018,
+      0.07009604125180544
+     ],
+     "p_perm": [
+      0.26761362610005296,
+      0.01708055520250118,
+      0.016295782775093373
+     ],
+     "train": {
+      "memoryless": {
+       "steps_med": 8.0,
+       "steps_q1": 7.0,
+       "steps_q3": 8.75,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.4444444444444444,
+       "excursion_mean": 0.007784887151997559,
+       "dir_stab_mean": 0.692328376894196,
+       "eff_med": 1.0320458885868218,
+       "eff_q1": 0.968926683771264,
+       "eff_q3": 1.0593426191097581,
+       "n": 18
+      },
+      "history": {
+       "steps_med": 7.0,
+       "steps_q1": 6.25,
+       "steps_q3": 7.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.5,
+       "excursion_mean": 0.0508192749848104,
+       "dir_stab_mean": 0.8171639163435126,
+       "eff_med": 1.0093286686385765,
+       "eff_q1": 0.991956070041019,
+       "eff_q3": 1.0418505132951563,
+       "n": 18
+      },
+      "permuted": {
+       "steps_med": 9.0,
+       "steps_q1": 8.0,
+       "steps_q3": 10.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.3888888888888889,
+       "excursion_mean": 0.008207154047073013,
+       "dir_stab_mean": 0.7836189769138512,
+       "eff_med": 0.9886374139226779,
+       "eff_q1": 0.9582737200713309,
+       "eff_q3": 1.027948718222256,
+       "n": 18
+      }
+     },
+     "held": {
+      "memoryless": {
+       "steps_med": 8.0,
+       "steps_q1": 7.25,
+       "steps_q3": 8.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.3333333333333333,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.6936242919749214,
+       "eff_med": 1.0192945679790935,
+       "eff_q1": 1.0071461738613527,
+       "eff_q3": 1.0258043316840868,
+       "n": 6
+      },
+      "history": {
+       "steps_med": 7.0,
+       "steps_q1": 7.0,
+       "steps_q3": 7.75,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.5,
+       "excursion_mean": 0.07189033172857397,
+       "dir_stab_mean": 0.8418987874177027,
+       "eff_med": 1.0079822945372576,
+       "eff_q1": 0.9998976737003726,
+       "eff_q3": 1.024605335158451,
+       "n": 6
+      },
+      "permuted": {
+       "steps_med": 9.0,
+       "steps_q1": 7.5,
+       "steps_q3": 9.75,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.16666666666666666,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.7130917324399947,
+       "eff_med": 0.9661604968708097,
+       "eff_q1": 0.9233488536987934,
+       "eff_q3": 1.0085336235392768,
+       "n": 6
+      }
+     }
+    },
+    {
+     "held_chain": "temperature",
+     "p_mem": [
+      0.288563675695242
+     ],
+     "p_hist": [
+      0.3691940503737652,
+      -0.18573197239385184,
+      0.029352608242681547
+     ],
+     "p_perm": [
+      0.2895459477607564,
+      0.04469668624695284,
+      -0.017055658793529216
+     ],
+     "train": {
+      "memoryless": {
+       "steps_med": 9.0,
+       "steps_q1": 8.0,
+       "steps_q3": 9.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.4444444444444444,
+       "excursion_mean": 0.034840913950830936,
+       "dir_stab_mean": 0.7086640988569062,
+       "eff_med": 1.0003096899086326,
+       "eff_q1": 0.9822466357072487,
+       "eff_q3": 1.0216984500405775,
+       "n": 18
+      },
+      "history": {
+       "steps_med": 6.0,
+       "steps_q1": 6.0,
+       "steps_q3": 6.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.6666666666666666,
+       "excursion_mean": 0.22767091981303217,
+       "dir_stab_mean": 0.8372909944634694,
+       "eff_med": 1.0346996345705206,
+       "eff_q1": 1.008061853679742,
+       "eff_q3": 1.0574458747389446,
+       "n": 18
+      },
+      "permuted": {
+       "steps_med": 9.0,
+       "steps_q1": 8.0,
+       "steps_q3": 9.75,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.4444444444444444,
+       "excursion_mean": 0.034262248713388385,
+       "dir_stab_mean": 0.6992905863664157,
+       "eff_med": 1.005813294599241,
+       "eff_q1": 0.9721858169669875,
+       "eff_q3": 1.0276034404279573,
+       "n": 18
+      }
+     },
+     "held": {
+      "memoryless": {
+       "steps_med": 9.5,
+       "steps_q1": 8.25,
+       "steps_q3": 10.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.3333333333333333,
+       "excursion_mean": 0.08421888724359232,
+       "dir_stab_mean": 0.7458592013735487,
+       "eff_med": 1.013971222357873,
+       "eff_q1": 0.9904801525513844,
+       "eff_q3": 1.0435700555504077,
+       "n": 6
+      },
+      "history": {
+       "steps_med": 6.5,
+       "steps_q1": 6.0,
+       "steps_q3": 7.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.5,
+       "excursion_mean": 0.4321146453656071,
+       "dir_stab_mean": 0.8658006323739796,
+       "eff_med": 1.0164733465443927,
+       "eff_q1": 1.0118762642541983,
+       "eff_q3": 1.0744726565838474,
+       "n": 6
+      },
+      "permuted": {
+       "steps_med": 9.0,
+       "steps_q1": 8.0,
+       "steps_q3": 10.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.3333333333333333,
+       "excursion_mean": 0.08577332230363144,
+       "dir_stab_mean": 0.7453337833417714,
+       "eff_med": 1.0183422386585654,
+       "eff_q1": 0.9974730465824029,
+       "eff_q3": 1.0508292681447675,
+       "n": 6
+      }
+     }
+    },
+    {
+     "held_chain": "brightness",
+     "p_mem": [
+      0.28353317628589425
+     ],
+     "p_hist": [
+      0.2976559215841379,
+      -0.06677550361637641,
+      -0.0008915028510128598
+     ],
+     "p_perm": [
+      0.2975559028244223,
+      0.009469355529885537,
+      0.022234106659154994
+     ],
+     "train": {
+      "memoryless": {
+       "steps_med": 8.5,
+       "steps_q1": 8.0,
+       "steps_q3": 10.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.2777777777777778,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.7530567681366441,
+       "eff_med": 0.997064296521406,
+       "eff_q1": 0.9645168804813795,
+       "eff_q3": 1.037735528106889,
+       "n": 18
+      },
+      "history": {
+       "steps_med": 8.0,
+       "steps_q1": 7.25,
+       "steps_q3": 8.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.2222222222222222,
+       "excursion_mean": 0.0059228274444881315,
+       "dir_stab_mean": 0.84619230376303,
+       "eff_med": 0.9905644209548572,
+       "eff_q1": 0.9604223380104616,
+       "eff_q3": 1.0087335599410907,
+       "n": 18
+      },
+      "permuted": {
+       "steps_med": 8.0,
+       "steps_q1": 8.0,
+       "steps_q3": 9.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.2777777777777778,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.7244131220479036,
+       "eff_med": 1.0071597090487718,
+       "eff_q1": 0.9835599401842288,
+       "eff_q3": 1.0569664618131505,
+       "n": 18
+      }
+     },
+     "held": {
+      "memoryless": {
+       "steps_med": 10.0,
+       "steps_q1": 10.0,
+       "steps_q3": 10.75,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.8333333333333334,
+       "excursion_mean": 0.0378319472072892,
+       "dir_stab_mean": 0.6164755152000433,
+       "eff_med": 1.041680157336135,
+       "eff_q1": 1.0269057083600008,
+       "eff_q3": 1.0674626336901185,
+       "n": 6
+      },
+      "history": {
+       "steps_med": 8.5,
+       "steps_q1": 8.0,
+       "steps_q3": 9.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.3333333333333333,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.8229261721836805,
+       "eff_med": 1.0086131995126923,
+       "eff_q1": 0.9984006238048877,
+       "eff_q3": 1.0197914779911792,
+       "n": 6
+      },
+      "permuted": {
+       "steps_med": 9.5,
+       "steps_q1": 9.0,
+       "steps_q3": 10.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.8333333333333334,
+       "excursion_mean": 0.05444006723686348,
+       "dir_stab_mean": 0.601880795331945,
+       "eff_med": 1.0513512256924806,
+       "eff_q1": 1.0323815248189216,
+       "eff_q3": 1.0853350555809331,
+       "n": 6
+      }
+     }
+    },
+    {
+     "held_chain": "speed",
+     "p_mem": [
+      0.29309572145965446
+     ],
+     "p_hist": [
+      0.39190517141004655,
+      -0.09744402363839991,
+      -0.014769425147887358
+     ],
+     "p_perm": [
+      0.27729816872191876,
+      -0.22083155460071088,
+      0.10542913416939985
+     ],
+     "train": {
+      "memoryless": {
+       "steps_med": 9.0,
+       "steps_q1": 8.0,
+       "steps_q3": 10.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.4444444444444444,
+       "excursion_mean": 0.06544419689361052,
+       "dir_stab_mean": 0.6898637800547741,
+       "eff_med": 0.997481223005779,
+       "eff_q1": 0.9824344917689743,
+       "eff_q3": 1.0272666047501424,
+       "n": 18
+      },
+      "history": {
+       "steps_med": 6.0,
+       "steps_q1": 6.0,
+       "steps_q3": 7.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.6666666666666666,
+       "excursion_mean": 0.10428566661460298,
+       "dir_stab_mean": 0.7740452596124079,
+       "eff_med": 1.0196577118286565,
+       "eff_q1": 0.9998506306608113,
+       "eff_q3": 1.0550544708991347,
+       "n": 18
+      },
+      "permuted": {
+       "steps_med": 9.0,
+       "steps_q1": 8.0,
+       "steps_q3": 10.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.3888888888888889,
+       "excursion_mean": 0.11864428658713942,
+       "dir_stab_mean": 0.6803558999589604,
+       "eff_med": 1.0150512036547947,
+       "eff_q1": 0.9899067913014624,
+       "eff_q3": 1.0609107406177487,
+       "n": 18
+      }
+     },
+     "held": {
+      "memoryless": {
+       "steps_med": 8.0,
+       "steps_q1": 8.0,
+       "steps_q3": 8.75,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.5,
+       "excursion_mean": 0.07754579621563187,
+       "dir_stab_mean": 0.6675970786591686,
+       "eff_med": 1.0136026348348413,
+       "eff_q1": 0.9600401863270496,
+       "eff_q3": 1.0808284718313625,
+       "n": 6
+      },
+      "history": {
+       "steps_med": 6.0,
+       "steps_q1": 6.0,
+       "steps_q3": 6.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.3333333333333333,
+       "excursion_mean": 0.08678531879177483,
+       "dir_stab_mean": 0.8050385080279202,
+       "eff_med": 1.0235355759682974,
+       "eff_q1": 1.007431243904186,
+       "eff_q3": 1.0586014147731695,
+       "n": 6
+      },
+      "permuted": {
+       "steps_med": 8.0,
+       "steps_q1": 8.0,
+       "steps_q3": 8.75,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.3333333333333333,
+       "excursion_mean": 0.021297757024058797,
+       "dir_stab_mean": 0.6214798616094216,
+       "eff_med": 0.9911555457939,
+       "eff_q1": 0.972517598505228,
+       "eff_q3": 1.0702813607164807,
+       "n": 6
+      }
+     }
+    }
+   ]
+  },
+  "16": {
+   "sigma": 2.4127140998840333,
+   "tol_new": 19.301712799072266,
+   "folds": [
+    {
+     "held_chain": "size",
+     "p_mem": [
+      0.28730114488633157
+     ],
+     "p_hist": [
+      0.2037048369624151,
+      -0.11488792070938693,
+      0.04711918738811163
+     ],
+     "p_perm": [
+      0.26224216513240334,
+      -0.15216862462011183,
+      0.07971020718567032
+     ],
+     "train": {
+      "memoryless": {
+       "steps_med": 7.0,
+       "steps_q1": 6.0,
+       "steps_q3": 7.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.05555555555555555,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.6458408892242337,
+       "eff_med": 1.0257439685642962,
+       "eff_q1": 0.9767221078797343,
+       "eff_q3": 1.053772402327029,
+       "n": 18
+      },
+      "history": {
+       "steps_med": 8.0,
+       "steps_q1": 7.0,
+       "steps_q3": 9.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.8973812028158937,
+       "eff_med": 0.916612245261993,
+       "eff_q1": 0.8797391203636395,
+       "eff_q3": 0.9378232644469136,
+       "n": 18
+      },
+      "permuted": {
+       "steps_med": 7.0,
+       "steps_q1": 6.0,
+       "steps_q3": 8.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.6314653393676491,
+       "eff_med": 1.0044508188542645,
+       "eff_q1": 0.9776551549373139,
+       "eff_q3": 1.0464531059477382,
+       "n": 18
+      }
+     },
+     "held": {
+      "memoryless": {
+       "steps_med": 7.5,
+       "steps_q1": 6.25,
+       "steps_q3": 8.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.6608898633970158,
+       "eff_med": 1.038234388333514,
+       "eff_q1": 0.9954786906685361,
+       "eff_q3": 1.108614712809037,
+       "n": 6
+      },
+      "history": {
+       "steps_med": 9.0,
+       "steps_q1": 6.75,
+       "steps_q3": 9.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.8912033944680989,
+       "eff_med": 0.9346102775355958,
+       "eff_q1": 0.9134607140571491,
+       "eff_q3": 0.9398911805162369,
+       "n": 6
+      },
+      "permuted": {
+       "steps_med": 7.5,
+       "steps_q1": 6.25,
+       "steps_q3": 8.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.6605669553282982,
+       "eff_med": 1.0074662243621464,
+       "eff_q1": 0.9793495272479874,
+       "eff_q3": 1.094495673185803,
+       "n": 6
+      }
+     }
+    },
+    {
+     "held_chain": "temperature",
+     "p_mem": [
+      0.1826009128753091
+     ],
+     "p_hist": [
+      0.2971896063609129,
+      -0.027600756814365746,
+      -0.009788889153661454
+     ],
+     "p_perm": [
+      0.21325410226064023,
+      -0.16544398541725663,
+      0.09724254213442873
+     ],
+     "train": {
+      "memoryless": {
+       "steps_med": 9.5,
+       "steps_q1": 7.25,
+       "steps_q3": 10.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.7578040930710476,
+       "eff_med": 0.9141906140938502,
+       "eff_q1": 0.8863820853322391,
+       "eff_q3": 0.9579694951928546,
+       "n": 18
+      },
+      "history": {
+       "steps_med": 6.5,
+       "steps_q1": 6.0,
+       "steps_q3": 7.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.05555555555555555,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.7216536093658876,
+       "eff_med": 1.0112193403785998,
+       "eff_q1": 0.9822185986972717,
+       "eff_q3": 1.0368048792624645,
+       "n": 18
+      },
+      "permuted": {
+       "steps_med": 8.0,
+       "steps_q1": 6.25,
+       "steps_q3": 9.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.6645685080814069,
+       "eff_med": 0.9683219604766333,
+       "eff_q1": 0.9351977518749579,
+       "eff_q3": 1.0163819707349495,
+       "n": 18
+      }
+     },
+     "held": {
+      "memoryless": {
+       "steps_med": 9.5,
+       "steps_q1": 9.0,
+       "steps_q3": 10.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.728080169081386,
+       "eff_med": 0.9580973915834653,
+       "eff_q1": 0.9285743240393269,
+       "eff_q3": 0.9888225373366717,
+       "n": 6
+      },
+      "history": {
+       "steps_med": 7.0,
+       "steps_q1": 6.25,
+       "steps_q3": 7.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.7388519728250724,
+       "eff_med": 1.0341554752505635,
+       "eff_q1": 0.9949417301116491,
+       "eff_q3": 1.0506003490191453,
+       "n": 6
+      },
+      "permuted": {
+       "steps_med": 8.0,
+       "steps_q1": 8.0,
+       "steps_q3": 8.75,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.6650686941794065,
+       "eff_med": 1.0112230432090679,
+       "eff_q1": 0.9757591180206217,
+       "eff_q3": 1.0468560622969967,
+       "n": 6
+      }
+     }
+    },
+    {
+     "held_chain": "brightness",
+     "p_mem": [
+      0.2105261308118943
+     ],
+     "p_hist": [
+      0.2001106135926202,
+      -0.08336664400122507,
+      0.019584252102034072
+     ],
+     "p_perm": [
+      0.2265887860084927,
+      0.34871783307269766,
+      -0.1889604502416531
+     ],
+     "train": {
+      "memoryless": {
+       "steps_med": 8.0,
+       "steps_q1": 8.0,
+       "steps_q3": 9.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.7349932557257061,
+       "eff_med": 0.952075611917125,
+       "eff_q1": 0.9317574158446345,
+       "eff_q3": 0.9681983365432171,
+       "n": 18
+      },
+      "history": {
+       "steps_med": 8.0,
+       "steps_q1": 8.0,
+       "steps_q3": 9.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.904448667867087,
+       "eff_med": 0.9211792779213366,
+       "eff_q1": 0.8865005448535124,
+       "eff_q3": 0.9412369340829444,
+       "n": 18
+      },
+      "permuted": {
+       "steps_med": 8.0,
+       "steps_q1": 7.0,
+       "steps_q3": 9.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.5441634718688075,
+       "eff_med": 1.0698618216923927,
+       "eff_q1": 1.0301717006072058,
+       "eff_q3": 1.1123731612834928,
+       "n": 18
+      }
+     },
+     "held": {
+      "memoryless": {
+       "steps_med": 8.0,
+       "steps_q1": 7.25,
+       "steps_q3": 8.75,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.7365287050328023,
+       "eff_med": 0.9492369107625136,
+       "eff_q1": 0.940293481515065,
+       "eff_q3": 0.9546920470698261,
+       "n": 6
+      },
+      "history": {
+       "steps_med": 8.0,
+       "steps_q1": 7.25,
+       "steps_q3": 8.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.9051806062889444,
+       "eff_med": 0.9132737181435535,
+       "eff_q1": 0.8967225560122606,
+       "eff_q3": 0.9294859840046492,
+       "n": 6
+      },
+      "permuted": {
+       "steps_med": 7.5,
+       "steps_q1": 7.0,
+       "steps_q3": 8.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.16666666666666666,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.5007964549229211,
+       "eff_med": 1.0543005190846908,
+       "eff_q1": 1.0373558126104896,
+       "eff_q3": 1.0993550295850751,
+       "n": 6
+      }
+     }
+    },
+    {
+     "held_chain": "speed",
+     "p_mem": [
+      0.2219490642198606
+     ],
+     "p_hist": [
+      0.26119843674743093,
+      -0.015547280333461325,
+      -0.10463453952498103
+     ],
+     "p_perm": [
+      0.28621578320986163,
+      0.24050431284600488,
+      -0.16606165921862415
+     ],
+     "train": {
+      "memoryless": {
+       "steps_med": 8.0,
+       "steps_q1": 8.0,
+       "steps_q3": 9.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.7070213684752219,
+       "eff_med": 0.9582810598670526,
+       "eff_q1": 0.9342060855665444,
+       "eff_q3": 0.9861638252538982,
+       "n": 18
+      },
+      "history": {
+       "steps_med": 7.0,
+       "steps_q1": 6.0,
+       "steps_q3": 8.0,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.6755159341601056,
+       "eff_med": 1.0182317085093682,
+       "eff_q1": 0.9857073608748835,
+       "eff_q3": 1.0364519964600853,
+       "n": 18
+      },
+      "permuted": {
+       "steps_med": 7.0,
+       "steps_q1": 6.0,
+       "steps_q3": 7.75,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.5357417845053447,
+       "eff_med": 1.0713382094550385,
+       "eff_q1": 1.058003003255589,
+       "eff_q3": 1.1034227119318993,
+       "n": 18
+      }
+     },
+     "held": {
+      "memoryless": {
+       "steps_med": 7.5,
+       "steps_q1": 6.25,
+       "steps_q3": 8.75,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.7032911037937088,
+       "eff_med": 0.937435564632062,
+       "eff_q1": 0.9101840739730007,
+       "eff_q3": 0.9704083301935367,
+       "n": 6
+      },
+      "history": {
+       "steps_med": 6.5,
+       "steps_q1": 6.0,
+       "steps_q3": 7.75,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.16666666666666666,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.7009198696196672,
+       "eff_med": 1.02223528673014,
+       "eff_q1": 1.0091844235189407,
+       "eff_q3": 1.0308946263856167,
+       "n": 6
+      },
+      "permuted": {
+       "steps_med": 6.0,
+       "steps_q1": 6.0,
+       "steps_q3": 7.5,
+       "steps_oldtol_med": 200.0,
+       "timeout_rate": 0.0,
+       "overshoot_mean": 0.0,
+       "excursion_mean": 0.0,
+       "dir_stab_mean": 0.4671899512878883,
+       "eff_med": 1.1217298042391062,
+       "eff_q1": 1.0398105380693718,
+       "eff_q3": 1.1563583560659754,
+       "n": 6
+      }
+     }
+    }
+   ]
+  }
+ },
+ "bar": {
+  "passed": true,
+  "wins_vs_memoryless": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "wins_vs_permuted": [
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ "beta_diagnostics_4d": {
+  "history": {
+   "betas": [
+    -0.16233945207557018,
+    -0.18573197239385184,
+    -0.06677550361637641,
+    -0.09744402363839991
+   ],
+   "signs": [
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "abs": [
+    0.16233945207557018,
+    0.18573197239385184,
+    0.06677550361637641,
+    0.09744402363839991
+   ],
+   "var": 0.0022985660227368503,
+   "sign_consistency": "4/4"
+  },
+  "permuted": {
+   "betas": [
+    0.01708055520250118,
+    0.04469668624695284,
+    0.009469355529885537,
+    -0.22083155460071088
+   ],
+   "signs": [
+    1,
+    1,
+    1,
+    -1
+   ],
+   "abs": [
+    0.01708055520250118,
+    0.04469668624695284,
+    0.009469355529885537,
+    0.22083155460071088
+   ],
+   "var": 0.011387967110588874,
+   "sign_consistency": "3/4"
+  }
+ }
+}

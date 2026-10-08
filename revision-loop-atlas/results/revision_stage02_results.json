@@ -1,0 +1,193 @@
+{
+ "null_family": {
+  "forms": [
+   "exponential a*rho^t",
+   "linear a-b*t"
+  ],
+  "a": [
+   0.6,
+   0.9
+  ],
+  "rho": [
+   0.85,
+   0.92
+  ],
+  "b": [
+   0.05,
+   0.1
+  ],
+  "sigmas": [
+   0.02,
+   0.05,
+   0.1
+  ],
+  "n": 9,
+  "n_cal": 18000,
+  "n_val": 18000,
+  "n_stress": 18000,
+  "note": "Null = unambiguous single-regime improvement. Very slow decays are a gray zone (stress subset, reported separately, not gated)."
+ },
+ "calibration": {
+  "B1": {
+   "S_grid": [
+    0.005,
+    0.01,
+    0.015,
+    0.02,
+    0.025,
+    0.030000000000000002,
+    0.034999999999999996,
+    0.04,
+    0.045,
+    0.049999999999999996,
+    0.055,
+    0.06,
+    0.065,
+    0.07,
+    0.07500000000000001,
+    0.08
+   ],
+   "S_frozen": 0.055,
+   "fpr_cal": 0.03777777777777778
+  },
+  "B2": {
+   "AMP_grid": [
+    0.08,
+    0.1,
+    0.12,
+    0.15,
+    0.18,
+    0.2,
+    0.25,
+    0.3
+   ],
+   "AMP_frozen": 0.1,
+   "fpr_cal": 0.03227777777777778
+  },
+  "B3": {
+   "T_grid": [
+    0.03,
+    0.05,
+    0.08,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3
+   ],
+   "T_frozen": 0.03,
+   "fpr_cal": 0.0
+  },
+  "B4": {
+   "note": "fixed: CPL dBIC>13.89 AND |\u0394slope|>=3\u03c3\u0302; no calibration",
+   "fpr_cal": 0.2852777777777778
+  }
+ },
+ "null_fpr_valid": {
+  "B1": 0.03666666666666667,
+  "B2": 0.03127777777777778,
+  "B3": 0.0,
+  "B4": 0.2857777777777778,
+  "TrackA": 0.0,
+  "family_wise": 0.3506666666666667
+ },
+ "null_fpr_stress": {
+  "B1": 0.5976111111111111,
+  "B2": 0.06194444444444445,
+  "B3": 0.0015,
+  "B4": 0.02861111111111111
+ },
+ "recovery": {
+  "stall_B1": 0.9902777777777778,
+  "oscillation_B2": 0.9891666666666666,
+  "divergence_B3": 0.9658333333333333,
+  "solve_TrackA_recovery": 1.0,
+  "solve_TrackA_fpr": 0.0,
+  "large_kink_B4_recovery": 0.405625,
+  "large_kink_B4_n": 1600,
+  "by_sigma": {
+   "stall_flat_B1": {
+    "sigma_0.02": [
+     1.0,
+     1.0
+    ],
+    "sigma_0.05": [
+     1.0,
+     1.0
+    ],
+    "sigma_0.1": [
+     0.975,
+     0.983
+    ]
+   },
+   "stall_improve_B1": {
+    "sigma_0.02": [
+     1.0
+    ],
+    "sigma_0.05": [
+     1.0
+    ],
+    "sigma_0.1": [
+     0.955
+    ]
+   },
+   "oscillation_B2": {
+    "sigma_0.02": [
+     1.0,
+     1.0
+    ],
+    "sigma_0.05": [
+     1.0,
+     1.0
+    ],
+    "sigma_0.1": [
+     0.935,
+     1.0
+    ]
+   },
+   "divergence_B3": {
+    "sigma_0.02": [
+     1.0,
+     1.0
+    ],
+    "sigma_0.05": [
+     0.995,
+     1.0
+    ],
+    "sigma_0.1": [
+     0.868,
+     0.932
+    ]
+   }
+  }
+ },
+ "gate": {
+  "per_detector_fpr_le_5": false,
+  "family_wise_fpr": 0.3507,
+  "family_wise_le_15": false,
+  "recovery_ge_90_per_class": true,
+  "PASS": false
+ },
+ "family_wise_4detector": {
+  "detectors": [
+   "TrackA",
+   "B1",
+   "B2",
+   "B3"
+  ],
+  "fpr": 0.0666,
+  "n": 36000,
+  "note": "B4 excluded: not validated (curvature confound, FPR 0.286 on null family)."
+ },
+ "exact_match_reverification": {
+  "pairs": 6,
+  "pass": 6
+ },
+ "B4_assessment": {
+  "fpr_null_family": 0.2858,
+  "fpr_slow_decay_stress": 0.0286,
+  "recovery_large_kink": 0.4056,
+  "mechanism": "Piecewise-linear change-point cannot distinguish exponential curvature from kinks at n=9: FPR rises with null curvature strength (2.9% slow decays -> 28.6% full family). No threshold gives both <=5% FPR and >=90% recovery (ROC: thr 13.89 -> 4.0%/63%; thr 20 -> 0.7%/33%). |dSlope|>=3sig gate does not filter curvature (curvature produces large |dSlope| relative to residuals).",
+  "recommendation": "Drop B4 from validated battery; document curvature confound."
+ }
+}

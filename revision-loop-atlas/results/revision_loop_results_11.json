@@ -1,0 +1,1148 @@
+{
+ "stage": "1.1 carry-forward reprocessing",
+ "rule": "t in 1..8 with extract_final_number(answer) is None -> e(t)=e(t-1), exact(t)=exact(t-1), flagged non_revision",
+ "no_new_llm_calls": true,
+ "carryforward_rounds": 74,
+ "detector_thresholds": {
+  "B1_S": 0.055,
+  "B2_AMP": 0.1,
+  "B3_T": 0.03,
+  "B4": "DROPPED (curvature confound)"
+ },
+ "counts": {
+  "TrackA_solve": 6,
+  "B1_stall": 0,
+  "B2_oscillation": 0,
+  "B3_divergence": 0
+ },
+ "expected_null_firings": {
+  "TrackA_solve": 0.0,
+  "B1_stall": 1.1099999999999999,
+  "B2_oscillation": 0.9299999999999999,
+  "B3_divergence": 0.0
+ },
+ "informative": 18,
+ "bar0": {
+  "n_trajectories": 30,
+  "zero_firing_trajectories": 24,
+  "zero_firing_fraction": 0.8,
+  "threshold": 0.75,
+  "fires": true
+ },
+ "trajectories": [
+  {
+   "traj_id": 0,
+   "e_corrected": [
+    0.1137,
+    0.1288,
+    0.1243,
+    0.1243,
+    0.2159,
+    0.2216,
+    0.2189,
+    0.2107,
+    0.2633
+   ],
+   "exact_corrected": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "non_revision_rounds": [
+    3
+   ],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": true
+  },
+  {
+   "traj_id": 1,
+   "e_corrected": [
+    0.0792,
+    0.1221,
+    0.1221,
+    0.101,
+    0.101,
+    0.0,
+    0.0,
+    0.0,
+    0.1041
+   ],
+   "exact_corrected": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    false
+   ],
+   "non_revision_rounds": [
+    2,
+    4,
+    7
+   ],
+   "detectors": {
+    "TrackA_solve": true,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 1,
+   "informative": true
+  },
+  {
+   "traj_id": 2,
+   "e_corrected": [
+    0.1782,
+    0.2106,
+    0.2106,
+    0.2106,
+    0.2106,
+    0.2106,
+    0.2106,
+    0.2106,
+    0.2106
+   ],
+   "exact_corrected": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "non_revision_rounds": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": true
+  },
+  {
+   "traj_id": 3,
+   "e_corrected": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exact_corrected": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "non_revision_rounds": [
+    2,
+    3,
+    5,
+    8
+   ],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": false
+  },
+  {
+   "traj_id": 4,
+   "e_corrected": [
+    0.1706,
+    0.2333,
+    0.2333,
+    0.2333,
+    0.1759,
+    0.1986,
+    0.1986,
+    0.2045,
+    0.2672
+   ],
+   "exact_corrected": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "non_revision_rounds": [
+    2,
+    3,
+    6
+   ],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": true
+  },
+  {
+   "traj_id": 5,
+   "e_corrected": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exact_corrected": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "non_revision_rounds": [],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": false
+  },
+  {
+   "traj_id": 6,
+   "e_corrected": [
+    0.1074,
+    0.1872,
+    0.1535,
+    0.1019,
+    0.0922,
+    0.134,
+    0.0878,
+    0.1869,
+    0.1867
+   ],
+   "exact_corrected": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "non_revision_rounds": [],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": true
+  },
+  {
+   "traj_id": 7,
+   "e_corrected": [
+    0.0,
+    0.2516,
+    0.2516,
+    0.2653,
+    0.2316,
+    0.2316,
+    0.2316,
+    0.2316,
+    0.2316
+   ],
+   "exact_corrected": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "non_revision_rounds": [
+    2
+   ],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": true
+  },
+  {
+   "traj_id": 8,
+   "e_corrected": [
+    0.3687,
+    0.2954,
+    0.2855,
+    0.2848,
+    0.2846,
+    0.2848,
+    0.2846,
+    0.2848,
+    0.2846
+   ],
+   "exact_corrected": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "non_revision_rounds": [],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": true
+  },
+  {
+   "traj_id": 9,
+   "e_corrected": [
+    0.1401,
+    0.1949,
+    0.1949,
+    0.119,
+    0.119,
+    0.1345,
+    0.1407,
+    0.1882,
+    0.1413
+   ],
+   "exact_corrected": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "non_revision_rounds": [
+    2,
+    4
+   ],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": true
+  },
+  {
+   "traj_id": 10,
+   "e_corrected": [
+    0.1733,
+    0.3146,
+    0.3146,
+    0.1936,
+    0.2106,
+    0.2247,
+    0.2247,
+    0.2247,
+    0.193
+   ],
+   "exact_corrected": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "non_revision_rounds": [
+    2,
+    6,
+    7
+   ],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": true
+  },
+  {
+   "traj_id": 11,
+   "e_corrected": [
+    0.0,
+    0.1709,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exact_corrected": [
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "non_revision_rounds": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "detectors": {
+    "TrackA_solve": true,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 1,
+   "informative": true
+  },
+  {
+   "traj_id": 12,
+   "e_corrected": [
+    0.121,
+    0.1153,
+    0.1209,
+    0.1288,
+    0.1288,
+    0.1288,
+    0.1288,
+    0.1288,
+    0.1288
+   ],
+   "exact_corrected": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "non_revision_rounds": [],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": false
+  },
+  {
+   "traj_id": 13,
+   "e_corrected": [
+    0.1838,
+    0.2902,
+    0.2902,
+    0.1229,
+    0.2839,
+    0.2839,
+    0.148,
+    0.1603,
+    0.1624
+   ],
+   "exact_corrected": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "non_revision_rounds": [
+    2,
+    5
+   ],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": true
+  },
+  {
+   "traj_id": 14,
+   "e_corrected": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exact_corrected": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "non_revision_rounds": [
+    4,
+    7,
+    8
+   ],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": false
+  },
+  {
+   "traj_id": 15,
+   "e_corrected": [
+    0.1221,
+    0.2233,
+    0.2233,
+    0.2233,
+    0.1775,
+    0.2248,
+    0.2248,
+    0.2248,
+    0.2248
+   ],
+   "exact_corrected": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "non_revision_rounds": [
+    2,
+    3,
+    6,
+    7,
+    8
+   ],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": true
+  },
+  {
+   "traj_id": 16,
+   "e_corrected": [
+    0.1939,
+    0.1991,
+    0.198,
+    0.1801,
+    0.1801,
+    0.1801,
+    0.1801,
+    0.1801,
+    0.1801
+   ],
+   "exact_corrected": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "non_revision_rounds": [],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": false
+  },
+  {
+   "traj_id": 17,
+   "e_corrected": [
+    0.1389,
+    0.1389,
+    0.1389,
+    0.1389,
+    0.1389,
+    0.1389,
+    0.1389,
+    0.1389,
+    0.1389
+   ],
+   "exact_corrected": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "non_revision_rounds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": false
+  },
+  {
+   "traj_id": 18,
+   "e_corrected": [
+    0.0,
+    0.2712,
+    0.2626,
+    0.1615,
+    0.1615,
+    0.1615,
+    0.1615,
+    0.0,
+    0.0
+   ],
+   "exact_corrected": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true
+   ],
+   "non_revision_rounds": [
+    5,
+    6
+   ],
+   "detectors": {
+    "TrackA_solve": true,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 1,
+   "informative": true
+  },
+  {
+   "traj_id": 19,
+   "e_corrected": [
+    0.2668,
+    0.2562,
+    0.2464,
+    0.2464,
+    0.2464,
+    0.2464,
+    0.2464,
+    0.2464,
+    0.2464
+   ],
+   "exact_corrected": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "non_revision_rounds": [],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": false
+  },
+  {
+   "traj_id": 20,
+   "e_corrected": [
+    0.2304,
+    0.2304,
+    0.2304,
+    0.1884,
+    0.1947,
+    0.1947,
+    0.1947,
+    0.1947,
+    0.1947
+   ],
+   "exact_corrected": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "non_revision_rounds": [
+    1,
+    2,
+    5,
+    6,
+    7,
+    8
+   ],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": true
+  },
+  {
+   "traj_id": 21,
+   "e_corrected": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exact_corrected": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "non_revision_rounds": [],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": false
+  },
+  {
+   "traj_id": 22,
+   "e_corrected": [
+    0.4908,
+    0.4683,
+    0.5162,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exact_corrected": [
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "non_revision_rounds": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "detectors": {
+    "TrackA_solve": true,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 1,
+   "informative": true
+  },
+  {
+   "traj_id": 23,
+   "e_corrected": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exact_corrected": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "non_revision_rounds": [
+    6,
+    8
+   ],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": false
+  },
+  {
+   "traj_id": 24,
+   "e_corrected": [
+    0.1392,
+    0.2011,
+    0.2011,
+    0.0,
+    0.0,
+    0.0,
+    0.1962,
+    0.1105,
+    0.1105
+   ],
+   "exact_corrected": [
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false
+   ],
+   "non_revision_rounds": [
+    2,
+    4,
+    8
+   ],
+   "detectors": {
+    "TrackA_solve": true,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 1,
+   "informative": true
+  },
+  {
+   "traj_id": 25,
+   "e_corrected": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.1938,
+    0.2,
+    0.2006,
+    0.2009
+   ],
+   "exact_corrected": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "non_revision_rounds": [],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": true
+  },
+  {
+   "traj_id": 26,
+   "e_corrected": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exact_corrected": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "non_revision_rounds": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": false
+  },
+  {
+   "traj_id": 27,
+   "e_corrected": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exact_corrected": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "non_revision_rounds": [],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": false
+  },
+  {
+   "traj_id": 28,
+   "e_corrected": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exact_corrected": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "non_revision_rounds": [],
+   "detectors": {
+    "TrackA_solve": false,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 0,
+   "informative": false
+  },
+  {
+   "traj_id": 29,
+   "e_corrected": [
+    0.1206,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.1139,
+    0.1101,
+    0.1209,
+    0.2854
+   ],
+   "exact_corrected": [
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "non_revision_rounds": [
+    2,
+    3,
+    4
+   ],
+   "detectors": {
+    "TrackA_solve": true,
+    "B1_stall": false,
+    "B2_oscillation": false,
+    "B3_divergence": false
+   },
+   "n_firings": 1,
+   "informative": true
+  }
+ ]
+}

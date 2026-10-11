@@ -4,8 +4,8 @@
 
 Can a verifier-driven learner discover steerable correction dynamics inside a
 real language model's frozen representation geometry — and *which* dynamics
-does it discover? This repo contains the full six-experiment program and the
-paper draft. The headline result: **the verifier's reward shape selects which
+does it discover? This repo contains the full experiment program (Exps 18–27)
+and the paper draft. The headline result: **the verifier's reward shape selects which
 correction law the learner discovers** — identical substrate, identical
 learner, identical optimizer; four verifier shapes produce four
 distinguishable dynamical regimes. The learner is the arrow; the verifier is
@@ -31,6 +31,25 @@ the pointer.
   it steers unseen words, unseen pairings, and unseen trajectory scales with
   low overshoot and zero timeouts — while minimal-verifier laws transfer
   unreliably (one mild law fine, one degenerate law catastrophic).
+- **Exp 24** — The frozen V4 law ports zero-retraining to Qwen layer 12 and
+  SmolLM2-135M's final layer (per-substrate recalibration): the damping law is
+  a portable operator across depth *and* model family. Pythia-70M missed the
+  geometry bar (0.698 vs 0.700), so it was excluded rather than graded unfairly.
+- **Exp 25** — Causal ablation: removing β doesn't spike overshoot (it *cuts*
+  it ~30%) — β is the "move smoothly and decisively" ingredient (jerk +33–53%
+  without it), not the "don't overshoot" one. γ is dead weight. The bar failed
+  as written; the corrected dissociation held on the metric the verifier
+  actually shaped.
+- **Exp 26** — β sensitivity sweep: jerk falls as β goes more negative, bottoms
+  at almost exactly the learned value, ticks up at hyper-damping; the sign
+  boundary (positive β → reactive/chaotic) holds on all three substrates. The
+  learner landed on the knee of the curve.
+- **Exp 27** — Multi-seed verdicts (320 trainings): V4's β<0 sign survives
+  (76/80 negative, every fold CI below zero) — the sign is the robust claim,
+  magnitudes are seed noise. V2's "damping 4/4" does not survive (pooled CI
+  [−0.026, +0.033]) — seed luck, cut from the paper. Controls: Exp-26's
+  "chaotic blow-up" was fold 1's deterministic linear instability (ρ=1.042),
+  not chaos; β's benefit ≈ 64% denoising / 36% transient shaping.
 
 ## Reproduce everything
 
@@ -55,6 +74,8 @@ the CUDA build.
 - `paper/paper.md` — the paper draft (Abstract → Experiments 18–23 → Limitations → Conclusion).
 - `specs/` — the pinned per-experiment specifications the whole program was built against.
 - `code/figures/` — regenerated figures, including the Exp-22 verifier-selection map.
+- `experiments/` — the Exp 24–27 reports: canary transfer, causal ablation,
+  β sensitivity sweep, and the multi-seed verdicts with controls.
 
 ## Honest limits (read before citing)
 
@@ -67,3 +88,4 @@ the CUDA build.
 ## License
 
 MIT — see `LICENSE`.
+

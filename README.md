@@ -75,7 +75,11 @@ the CUDA build.
 - `specs/` — the pinned per-experiment specifications the whole program was built against.
 - `code/figures/` — regenerated figures, including the Exp-22 verifier-selection map.
 - `experiments/` — the Exp 24–27 reports: canary transfer, causal ablation,
-  β sensitivity sweep, and the multi-seed verdicts with controls.
+  β sensitivity sweep, and the multi-seed verdicts with controls; plus
+  `STEERABLE-PLANT-STAGE0-GEMINI-REPORT.md` — Stage 0 of the steerable-plant
+  program on the Gemini substrate (actuator dose-response gate: PASS, gain
+  ≈ 0.95, all three bars hold), with the 40-call floor and 320-call ladder
+  ledgers and the bar-evaluation script in `code/`.
 
 ## Honest limits (read before citing)
 

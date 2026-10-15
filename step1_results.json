@@ -1,0 +1,34 @@
+{
+ "n_rows": 3700,
+ "n_command": 2100,
+ "heldout_rows": 0,
+ "error_rows": 0,
+ "analysis_code": "step1_analysis_FROZEN_v13.py",
+ "analysis_code_sha256": "46c2ec68bc8ac95d39b9cd0b332c6b290dc74e5b4fa41771294c7c4db400b8d0",
+ "analysis_code_modified": false,
+ "g_target_used": 0.69,
+ "calibration": {
+  "small_slope": 0.870265,
+  "large_slope": 0.754057,
+  "positive_small_slope": 0.180783,
+  "negative_small_slope": 1.790348,
+  "sign_gain_relative_difference": 1.633139,
+  "selected_small_gain": 0.180783,
+  "saturation_flag": true,
+  "saturation_details": "possible plateau: median |\u0394words| rose \u22645% from |u|=48 to 60",
+  "piecewise_alpha": false,
+  "alpha_small": 3.816739,
+  "alpha_large": 3.816739,
+  "alpha_rule": "piecewise or single alpha per 15% rule; sign asymmetry reported",
+  "warnings": [
+   "positive/negative command gains differ by >20%; report both and use the smaller absolute gain conservatively"
+  ]
+ },
+ "jitter_gate": {
+  "status": "BLOCKED",
+  "error": "ValueError: Jitter design matrix is rank-deficient",
+  "cause": "command rows have constant sigma=0.0 (no injected reading noise on command interface); frozen model's design matrix requires varying sigma (its test data gave commands varying sigma). Runner/code design mismatch \u2014 not a data failure.",
+  "frozen_code": "step1_analysis_FROZEN_v13.py (SHA 46c2ec68...), unmodified"
+ },
+ "step2_status": "ON HOLD per Adrian 2026-10-15: (1) jitter gate unresolved, (2) sign-asymmetry problem with single-gain controller"
+}

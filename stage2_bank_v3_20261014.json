@@ -1,0 +1,804 @@
+{
+ "stage2_texts": [
+  {
+   "text_id": "s1_0",
+   "src_num": 10,
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "text": "The glassblower dipped his hollow iron blowpipe into the fiery crucible furnace, gathering a glowing orange gob of molten silica glass. Working against the relentless cooling of the material, he rolled the gather smoothly across the polished steel marver table to shape its initial cylinder. With measured breaths through the pipe, he expanded the glowing bubble while turning the rod in steady, practiced revolutions. His assistant used wooden jacks soaked in cold water to narrow the neck of the vase without marring its luminous surface. The workshop was deafeningly hot, filled with the roar of gas burners and the hiss of scorched cherry wood tools. Before the piece developed thermal fractures, he tapped it free into an insulated annealing oven where it would cool across twenty long hours, locking in its delicate amber transparency forever to see in the gallery."
+  },
+  {
+   "text_id": "s1_1",
+   "src_num": 11,
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "text": "Deep inside the red-lit darkroom, the photographer carefully submerged an exposed sheet of fiber paper into the chemical developer tray. Within forty seconds under the faint amber safelight, ghostly silver outlines of misty mountain ridges began to materialize beneath the clear liquid surface. He gently rocked the enameled plastic tray back and forth, ensuring even distribution across the delicate emulsion layer before transferring the wet print into the acidic stop bath. The sharp, vinegar scent of acetic acid mingled with damp basement air as water ran constantly through the washing sink. Outside, modern digital cameras snapped millions of instant electronic frames, but down here in the cool quiet darkness, light remained a tangible physical medium carved patiently out of silver salts, shadow gradients, and deliberate time, requiring absolute precision from the solitary printer working through the chilly evening hours."
+  },
+  {
+   "text_id": "s1_2",
+   "src_num": 12,
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "text": "The bookbinder sat at her oak workbench surrounded by bone folders, linen thread, and heavy cast iron standing presses. She carefully folded twenty pristine sheets of handmade rag paper into matching signatures, smoothing down each crisp crease with the flat edge of an ox-bone tool. Using an awl, she punched uniform sewing holes through the paper folds, aligning them precisely against woven hemp cords stretched taut on a traditional wooden sewing frame. Her fingers flew rhythmically across the spine, weaving bleached linen thread through the paper gatherings in tight, interlocking kettle stitches. A faint aroma of warm animal hide glue and aged parchment lingered in the sunny studio. She treated every volume as an enduring sanctuary for human thought, building flexible spines meant to open flat without protest across several coming centuries of appreciative readers within the quiet library."
+  },
+  {
+   "text_id": "s1_3",
+   "src_num": 13,
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "text": "The coppersmith hammered a flat red-gold disc over a heavy steel anvil stake, his rhythmic blows ringing clearly throughout the cobbled alley. With every synchronized strike of his polished planishing hammer, the ductile metal curved upward, gradually transforming into the graceful swelling base of an alembic kettle. Hours of heavy hammering work-hardened the tough metal, forcing him to reheat the piece under the bright blue flame of the annealing torch until dull crimson heat restored its natural softness. Quenched in cold water with a sudden hiss of white steam, the copper shed dark flakes of scale. He wiped the smooth surface clean with a coarse leather rag, inspecting the uniform pattern of overlapping hammer facets. The finished pot would brew aromatic tea for generations, bearing the indelible imprint of his hands across each shining curve of burnished metal."
+  },
+  {
+   "text_id": "s1_4",
+   "src_num": 14,
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "text": "The botanical illustrator adjusted her brass microscope above the delicate wild orchid specimen pinned carefully to the cork dissection tray. Dipping an ultra-fine sable brush into black India ink, she rendered the microscopic hairs lining the flower's lower petal with microscopic stippled dots. A fresh cup of jasmine tea grew completely cold beside her watercolor palette as afternoon daylight angled across the north-facing drafting studio. Pressed botanical field specimens collected from high alpine meadows decades ago filled labeled archival folders stacked along the wooden walls. Her goal was neither romantic abstraction nor casual impression, but absolute scientific fidelity that could survive scrutiny by demanding taxonomists. Every veined petal, dissected seed pod, and pollen grain required hours of steady handwork, translating the fragile beauty of living plant structures into permanent taxonomic records for the herbarium across each detailed plate."
+  },
+  {
+   "text_id": "s1_5",
+   "src_num": 15,
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "text": "The cartographer inked the final contour lines onto a large vellum chart, mapping the steep terrain of the northern river valley. Working beneath a green-shaded drafting lamp, he guided his mechanical ruling pen with calibrated pressure, laying down razor-thin black lines that indicated elevation intervals of fifty feet. His antique boxwood compass and brass parallel rulers rested atop sheets of draft survey notes brought back by surveyors who had traversed the dense mountain forests on foot. Outside his window, coastal evening fog crept over the harbor rooftops, obscuring distant ships at anchor. He labeled mountain passes, remote logging camps, and braided tributaries with tiny copperplate script, transforming wild topography into a legible navigational guide. A good map, he often reflected, offered travelers quiet reassurance, capturing the vast geometry of the wilderness on a single folded sheet of paper."
+  },
+  {
+   "text_id": "s1_6",
+   "src_num": 16,
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "text": "The potter centered a wet mound of stoneware clay on the spinning wooden wheel head, his calloused hands slick with grey slip. Pressing his thumbs firmly down into the rotating clay mass, he opened the center and steadily drew the thick walls upward into a tall, balanced cylinder. The hypnotic hum of the electric wheel motor blended with the soft splash of muddy water in the wash bucket. He smoothed the exterior surface with a curved rib made from polished cherry wood, shaping the gentle flare of the pitcher's rim before pulling a graceful handle from a separate piece of soft clay. In the adjacent kiln room, hundreds of glazed bowls waited for the upcoming wood firing. Every ceramic vessel carried the subtle memory of the wheel's spin, destined to serve daily meals across warm kitchen tables for many years."
+  },
+  {
+   "text_id": "s1_7",
+   "src_num": 17,
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "text": "The luthier carved the arched spruce top plate of a cello using a tiny thumb plane no larger than an almond shell. Fine curling shavings of fragrant alpine wood accumulated around his leather apron as he gauged the plate's thickness with brass dial calipers. Tapping the carved wood with his knuckle, he listened intently to the resonant acoustic pitch produced by the vibrating grain, searching for the precise ringing tone that signaled acoustic balance. The workshop was lined with seasoned maple backs, delicate purfling strips, and glass jars containing amber varnish dissolved in pure grain alcohol. He understood that a stringed instrument was not merely assembled from wood, but tuned through subtle fractions of a millimeter, waiting for the bow stroke of a musician who had not yet been born into this busy modern world of constant and fleeting sound."
+  },
+  {
+   "text_id": "s1_8",
+   "src_num": 18,
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "text": "The tea master evaluated small porcelain tasting bowls arranged in an orderly line across the bamboo sampling bench. In each white cup, whole dried leaves from spring harvests had steeped for exactly four minutes in boiling mountain spring water, unfurling to reveal their delicate unbroken tips. Lifting the warm porcelain to his face, he inhaled the complex steam, detecting subtle aromatic notes of roasted chestnuts, wild clover, and damp mountain stone. He took a measured spoonful of the golden liquor, aerating it across his palate to judge the balance of sweetness and astringency before noting his observations in an ink ledger. Crafting the seasonal blend required balancing crops from three different mountain terraces, ensuring that the final tin offered tea drinkers the pure, restorative harmony of early spring mornings on quiet hillsides bathed under clear skies in fresh dawn mist."
+  },
+  {
+   "text_id": "s1_9",
+   "src_num": 19,
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "text": "The stone carver positioned his hardened steel chisel against the block of creamy limestone, striking its wooden handle with a weighted mallet. Flakes of pale stone fell softly onto the dusty workshop floor as he revealed the folded drapery of an angel's wing carved for the cathedral restoration. He traced the curving outlines of the medieval design using tracing paper transferred from original architectural drawings preserved in the diocesan archives. The rhythmic ring of metal against stone echoed off the high vaulting of the masonry yard, a persistent sound that stonecutters had produced in this very quarry since the thirteenth century. Running his fingertips across the carved relief, he smoothed away harsh tool marks, knowing the finished sculpture would endure centuries of wind, rain, and winter frost on the roof far above the ground high above the ancient city streets."
+  },
+  {
+   "text_id": "s2t_00",
+   "src_num": 100,
+   "split": "train",
+   "origin": "stage2",
+   "topic": "blacksmithing",
+   "text": "The blacksmith lifts the glowing horseshoe from the coal forge with long iron tongs, its orange heart fading to cherry red along the thinned edges. He lays it across the scarred face of the anvil and strikes with a two pound hammer, each blow ringing through the soot dark shop and scattering bright sparks across the packed dirt floor. Between heats he checks the curve against a worn wooden template, then drives the nail holes true with a slim pritchel punch. The quench barrel hisses violently when the finished shoe plunges in, steam rolling upward into the blackened rafters. He files the ground surface smooth, tests each hole with a practiced thumb, and sets the shoe on the cooling rack. Outside, a restless horse stamps in the paddock, waiting for its turn. The forge fire pops and settles, ready for the next heat."
+  },
+  {
+   "text_id": "s2t_01",
+   "src_num": 101,
+   "split": "train",
+   "origin": "stage2",
+   "topic": "clock repair",
+   "text": "The horologist lifts the brass movement from its oak case and sets it in the cleaning basket, each wheel and pinion tagged in order of removal. Under the loupe he inspects the escapement, finding the pallet stones gummed with a century of dried oil. He pegs out each pivot hole with sharpened boxwood, then reams the worn bushing and presses in a new bronze one. The mainspring is cleaned and greased, the balance staff polished to a mirror shine. Reassembled, the movement ticks with a crisp even beat on the test stand. He regulates it against the master clock for three days, nudging the rating nut a fraction at a time, until it keeps true time. He winds the movement fully and sets the hands to the correct hour. The tick fills the quiet shop."
+  },
+  {
+   "text_id": "s2t_02",
+   "src_num": 102,
+   "split": "train",
+   "origin": "stage2",
+   "topic": "bread baking",
+   "text": "The baker turns the risen dough onto the floured bench and folds it gently, degassing without tearing the delicate gluten web. She shapes two tight boules, tucking the seams underneath, and sets them seam side up in floured bannetons for the final proof. The oven roars with stored heat from the wood fire, the deck swept clean of ash. She inverts each loaf onto the peel, slashes the tops with a curved lame in three swift strokes, and slides them onto the hot stone. Steam hisses from the water pan. After forty minutes the crusts are deep mahogany and singing faintly as they cool. She taps the bottoms, listening for the hollow drum of a full bake. She wraps the warm loaves in brown paper, folding the edges crisp for the market stall where customers already queue in the cold."
+  },
+  {
+   "text_id": "s2t_03",
+   "src_num": 103,
+   "split": "train",
+   "origin": "stage2",
+   "topic": "sushi preparation",
+   "text": "The itamae sharpens his yanagiba on the waterstone with long even strokes, testing the edge against his thumbnail until it bites cleanly. He slices the bluefin loin in a single drawing motion, each piece exactly the thickness of two fingers, the fat marbling glowing pink against the deep red flesh. The rice, seasoned while warm with vinegar and fanned to a shine, is molded in his right hand with two fingers of pressure. A whisper of wasabi goes between fish and rice. He sets each nigiri on the cedar counter in order, turning the fish to catch the light. The regulars eat in silence, nodding. He wipes the blade between cuts, never rushing. He arranges the finished pieces on crushed ice. The fish gleams like polished stone under the lamps. The noren curtain sways in the doorway as regulars arrive."
+  },
+  {
+   "text_id": "s2t_04",
+   "src_num": 104,
+   "split": "train",
+   "origin": "stage2",
+   "topic": "tide pools",
+   "text": "The tide has retreated, leaving glassy pools cupped in the black basalt. A sea star clings to the rock wall, its orange arms curled around a mussel, while tiny hermit crabs skitter sideways across the sandy bottom. Green anemones bloom in the shallows, their tentacles waving in the surge, each one a patient mouth waiting for the water to return. A sculpin darts between shadows, perfectly camouflaged against the speckled stone. Barnacles click shut as a gull shadow passes overhead. In the deepest pool, a small octopus pulses red then pale, watching. The ocean breathes just beyond the rocks, and soon the pools will vanish under the returning tide. A wave larger than the rest crashes over the rocks, refreshing every pool at once. The anemones close, then slowly reopen. The cycle begins again. The gulls cry, impatient for the feast."
+  },
+  {
+   "text_id": "s2t_05",
+   "src_num": 105,
+   "split": "train",
+   "origin": "stage2",
+   "topic": "waterfall",
+   "text": "The river hurls itself off the cliff edge in a single white curtain, falling a hundred feet before exploding against the boulders below. The roar is physical, a pressure in the chest that drowns every other sound. Mist rises in great billowing clouds, soaking the viewing platform and painting rainbows that shatter and reform in the spray. Ferns and mosses cling to the perpetually wet rock face, impossibly green against the gray stone. A dipper works the plunge pool margins, unfazed by the deluge. The river below races away, foaming and wild, already forgetting its great leap. Standing close, you feel the raw indifferent power of falling water. The guide shouts something inaudible and points at the rainbow. Everyone is soaked and grinning anyway. The trail descends through dripping ferns. Swallows dart through the spray, feeding on midges."
+  },
+  {
+   "text_id": "s2t_06",
+   "src_num": 106,
+   "split": "train",
+   "origin": "stage2",
+   "topic": "sailing",
+   "text": "The sloop heels hard as the gust hits, rail nearly buried, and the helmsman eases the mainsheet a fraction to keep her on her feet. Spray flies over the bow in white sheets, soaking the foredeck crew as they grind the jib in tighter. The compass swings and steadies on the new heading, the telltales streaming straight back on both sides of the sail. Below, the cabin is chaos, charts sliding, a mug rolling in widening arcs. On deck the work is wordless and precise, each crew member braced and watching. The island grows slowly on the horizon, green against the blue. The wind holds steady from the quarter, and the boat surfs down each wave with a rising hum through the hull. The crew tacks in unison, the boom swinging across with a rush. The new heading feels faster already."
+  },
+  {
+   "text_id": "s2t_07",
+   "src_num": 107,
+   "split": "train",
+   "origin": "stage2",
+   "topic": "market morning",
+   "text": "The market wakes before the sun, vendors backing trucks to the stalls and shouting greetings across the empty aisles. Tarps come off to reveal pyramids of tomatoes, glossy eggplants, and corn still cool from the field. The flower seller arranges her buckets in a blazing row, misting the petals with a hand pump. By seven the first customers arrive, chefs in whites buying cases, old women squeezing melons with expert thumbs. The aisles fill with the smell of cilantro, ripe peaches, and fresh coffee from the corner cart. Bargaining is brisk and good natured, a theater everyone knows. By ten the best produce is gone, and the vendors start calling out discounts to clear the tables. The coffee cart does a roaring trade among the vendors. Deals are sealed with handshakes and laughter. The gutters run with wash water."
+  },
+  {
+   "text_id": "s2t_08",
+   "src_num": 108,
+   "split": "train",
+   "origin": "stage2",
+   "topic": "stargazing",
+   "text": "The telescope stands on the dark hilltop, its tube pointed at the smudge of Andromeda barely visible to the naked eye. The observer checks the finder scope, centers the galaxy, and switches to the high power eyepiece. There it is, a tilted oval of faint light, the combined glow of a trillion stars, photons that left their source two and a half million years ago. Nearby, Saturn hangs like a jewel, its rings razor thin and impossibly sharp. A meteor scratches across Perseus, gone in a heartbeat. The Milky Way arches overhead in a river of unresolved suns. The cold seeps through every layer of clothing. The universe is putting on its oldest show. Dew soaks through the observer's jacket as the night deepens, but nobody suggests leaving early. An owl calls from the dark treeline."
+  },
+  {
+   "text_id": "s2t_09",
+   "src_num": 109,
+   "split": "train",
+   "origin": "stage2",
+   "topic": "rock climbing",
+   "text": "The climber chalks up and studies the overhanging wall, reading the sequence of crimps and slopers like a puzzle. She pulls on, feet precise on the tiny edges, body tension holding her close to the rock. Each move is committed, a deadpoint to the sidepull, a high step, a mantel onto the sloping ledge. The rope runs cleanly through the quickdraws clipped at each bolt. Halfway up, the pump sets in, forearms swelling, and she shakes out one arm then the other, breathing deliberately. The crux is a thin traverse with nothing for the feet; she commits, sticks it, and the relief floods through her. She tops out onto warm granite, clips the anchors, and yells down that she is safe. Her partner lowers her gently to the ground. They coil the rope, already planning the next route."
+  },
+  {
+   "text_id": "s2h_00",
+   "src_num": 200,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "weaving",
+   "text": "The weaver sits at the tall wooden loom before dawn, her shuttle loaded with indigo dyed wool. She presses the treadles in their ancient sequence and the harnesses lift, opening a clean shed between the warp threads. The shuttle flies through with a soft wooden clatter, and she beats the weft firmly into place with the heavy beater bar. Row by row the pattern emerges, diamonds of cream and rust blooming across the deep blue ground. Her hands know the rhythm without thought, learned over twenty years at this same bench. Outside the small window, the sky pales from black to gray. She ties off a broken thread with a weaver knot, trims the end close, and throws the next pick. By full morning light, a full handspan of new cloth glows on the beam."
+  },
+  {
+   "text_id": "s2h_01",
+   "src_num": 201,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "candle-making",
+   "text": "The chandler lowers the weighted wick into the copper vat of melted beeswax, watching the pale gold liquid climb the braided cotton. She lifts it slowly and the thin coat hardens in the cool air of the workshop, turning opaque as it sets. Again and again she dips, each layer adding substance, the taper growing from a thread to a proper candle. Between dips she straightens the rows hanging from the wooden frame, turning each one so the wax builds evenly. The whole room smells of honey and warm smoke. When the tapers reach the thickness of her thumb, she rolls them on the marble slab to smooth the surface, trims the wicks to a neat point, and pairs them for sale. A dozen pairs stand ready by noon. She trims the last wick and blows out the workshop lamp."
+  },
+  {
+   "text_id": "s2h_02",
+   "src_num": 202,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "soap-making",
+   "text": "The soapmaker stirs the lye solution into the warmed olive oil with a long wooden paddle, watching the pale mixture thicken toward trace. When a drizzle from the paddle leaves a brief pattern on the surface, she folds in dried lavender buds and a spoonful of honey. She pours the batter into the lined wooden mold, tapping the sides to release trapped air bubbles. A folded blanket goes over the top to hold the heat of saponification through the night. By morning the block is firm enough to unmold, cool and faintly fragrant. She cuts it with a taut wire into even bars, each stamped with her small leaf mark. The bars will cure on pine racks for six weeks before they are ready. The curing room smells of lavender and clean lye, sharp and comforting."
+  },
+  {
+   "text_id": "s2h_03",
+   "src_num": 203,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "calligraphy",
+   "text": "The calligrapher grinds the ink stick against the slate stone in slow circles, adding drops of water until the black liquid shines like lacquer. She selects a wolf hair brush, tests its point against her thumb, and loads it with a single confident dip. On the cream paper she writes the first character with a bold descending stroke, the brush swelling and tapering as her wrist turns. Each stroke must be committed; there is no erasing ink. Her breathing slows to match the rhythm of the brush. The second character balances the first, lighter and quicker. She sits back, studies the composition, and adds the red seal stamp in the corner. The work is finished in eleven strokes. The ink dries to a deep matte black. She rolls the scroll and ties it with silk cord."
+  },
+  {
+   "text_id": "s2h_04",
+   "src_num": 204,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "origami",
+   "text": "The folder creases a perfect square of deep red paper diagonally, aligning the corners with a precision measured in fractions of a millimeter. She runs her thumbnail hard along the fold to set it, then opens the paper and collapses it into the preliminary base, four flaps nested neatly. Each subsequent fold narrows the form, coaxing a crane from the flat sheet through a sequence she memorized as a child. The neck rises with a reverse fold, the tail flattens, and the wings spread with a final gentle pull. She adjusts the head with tweezers, giving it a slight downward tilt. The finished crane stands balanced on its thin legs, red as a winter berry against the white table. She folds a second crane, smaller, and sets it beside the first. The pair looks ready to fly."
+  },
+  {
+   "text_id": "s2h_05",
+   "src_num": 205,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "knitting",
+   "text": "The knitter works the heel flap of the sock in a strong slip stitch pattern, the navy yarn flowing smoothly from the ball at her feet. Her needles click in a steady rhythm as she turns the heel, short rows shaping the cup that will cradle the foot. She picks up the gusset stitches along each edge, taking care not to leave gaps that would let in cold air. The leg rises in ribbing, elastic and warm, two inches of patterned cuff to fold over a boot top. She tries the length against her own ankle, counts the rows, and begins the toe decreases. Kitchener stitch closes the end without a seam. The pair is finished by lamplight, ready for winter. She folds the finished pair and tucks them into the gift box. The wool smells faintly of lanolin."
+  },
+  {
+   "text_id": "s2h_06",
+   "src_num": 206,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "furniture woodworking",
+   "text": "The woodworker planes the cherry board with long even strokes, translucent shavings curling from the throat of the iron and piling softly on the bench. He checks the surface with a straightedge, holding it to the window light to catch any hollow. The legs are cut on the table saw, then tapered on the jointer so they narrow gracefully toward the floor. He chops the mortises by hand, mallet and chisel paring each socket to a snug fit. A thin coat of hide glue, clamps drawn tight, and the frame squares true under the tape measure. After the glue cures he sands through the grits, raises the grain with water, and rubs in the oil finish until the wood glows. He wipes the surface with a tack cloth. The table stands solid, ready for a hundred years of dinners."
+  },
+  {
+   "text_id": "s2h_07",
+   "src_num": 207,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "basket weaving",
+   "text": "The basket maker soaks the willow withes in the long trough until they bend without cracking, then sorts them by thickness on the damp grass. She drives the stout stakes upright into the slotted base board, spacing them evenly around the oval. The weavers go over and under in a plain weave at first, each row packed tight with the iron packing tool. As the sides rise she splays the stakes outward to shape the belly of the basket. A row of three rod wale adds strength at the shoulder. She finishes with a braided border, tucking each stake down beside its neighbor and trimming the ends flush. The basket stands firm, smelling of fresh willow and rain. She weaves a final row of dyed red withes for decoration. The pattern circles the rim like a bright thread."
+  },
+  {
+   "text_id": "s2h_08",
+   "src_num": 208,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "leatherworking",
+   "text": "The leatherworker lays the vegetable tanned hide on the granite slab and traces the wallet pattern with a silver pen, nesting the pieces to waste as little as possible. She cuts along the lines with a round knife, the blade gliding through the firm leather with a soft tearing sound. The edges are beveled, dampened, and burnished with beeswax until they shine dark and smooth. She punches the stitch holes with a pricking iron, each hole angled the same way, then sews the panels with waxed linen thread in a saddle stitch, two needles passing each other through every hole. A final coat of neatsfoot oil deepens the color. The wallet folds crisply and snaps shut. She edges the last seam with the bone folder. The wallet smells rich and new, ready for a pocket."
+  },
+  {
+   "text_id": "s2h_09",
+   "src_num": 209,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "papermaking",
+   "text": "The papermaker stirs the vat of cotton pulp until the fibers hang evenly in the milky water, then slides the mold and deckle beneath the surface in one smooth motion. She lifts with a practiced shake, fore and aft, letting the water drain through the fine screen while the fibers knit into a sheet. The damp leaf is couched onto a stack of wool felts, pressed under the great screw press until it stops dripping. Each sheet is peeled from its felt and hung on the drying lines strung across the loft. The finished paper has a soft tooth and a faint deckle edge. She holds a sheet to the light, checking for thin spots, and stacks the good ones for the printer. The loft smells of wet wool and clean fiber. Tomorrow these sheets will carry someone's important words."
+  },
+  {
+   "text_id": "s2h_10",
+   "src_num": 210,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "printmaking",
+   "text": "The printmaker rocks the burin forward through the copper plate, curling a bright shaving from the incised line. She works the cross hatching patiently, deepening the shadows of the etched landscape one precise cut at a time. When the image is complete she warms the plate and daubs on the stiff black ink, working it into every groove with a dabber. The surface is wiped with tarlatan until only the lines hold ink, the plate gleaming. Dampened paper goes down, the blankets are folded over, and she cranks the press bed through with steady pressure. She peels the sheet back to reveal the print, sharp and rich, and hangs it to dry. She pulls a second proof to check the wiping. The edition will number fifty, each signed in pencil below the image. The ink smells of linseed and iron."
+  },
+  {
+   "text_id": "s2h_11",
+   "src_num": 211,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "jewelry making",
+   "text": "The jeweler saws the silver sheet along the penciled oval with a fine blade, the frame humming softly in her hand. She files the edge true, then solders the bezel wire upright with a whisper of flame from the torch, the join flowing bright for an instant. The turquoise cabochon is set into the seat and the bezel burnished down over its dome with a polished steel tool. She solders the bail to the back, pickles the piece to remove firescale, and polishes it through the compounds until it mirrors the lamp. The finished pendant hangs from a delicate chain, the stone glowing blue green against the bright silver. She clasps it around the velvet display neck. She checks the clasp twice before boxing it. The pendant catches the light with every small movement. The workshop cat sleeps through everything."
+  },
+  {
+   "text_id": "s2h_12",
+   "src_num": 212,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "shoemaking",
+   "text": "The shoemaker tacks the leather upper to the wooden last, pulling the damp hide tight over the toe with lasting pincers and driving each tack home with quick hammer taps. He trims the excess at the feather edge, then sews the welt to the insole with a curved awl and waxed thread, each stitch locked in a continuous chain. The sole is glued and pressed in the jack, the heel built up from stacked leather lifts and shaped on the sander. He stains the edges dark, burnishes them with wax, and polishes the uppers to a deep shine. The finished shoes stand paired on the bench, smelling of leather and polish, ready for their first wearing. He brushes the finished pair and sets them in the window. They gleam darkly in the afternoon sun. The customer will collect them on Friday."
+  },
+  {
+   "text_id": "s2h_13",
+   "src_num": 213,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "coffee roasting",
+   "text": "The roaster pours the green Ethiopian beans into the spinning drum, watching the temperature climb steadily on the dial. At first the beans smell grassy and pale, then they yellow and release a sweet hay aroma as the moisture steams away. The first crack rolls through the drum like distant popcorn, and she notes the time on her clipboard. The beans darken from cinnamon to chestnut, oils beginning to glisten on their creased surfaces. She cuts the heat just before second crack, judging the roast by color and smell rather than the numbers alone. The cooling tray rattles as the beans pour out, and the whole roastery fills with the rich scent of fresh roast. She scoops a handful to check the color against the sample tile. The roast is exactly where she wants it."
+  },
+  {
+   "text_id": "s2h_14",
+   "src_num": 214,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "cheese making",
+   "text": "The cheesemaker warms the morning milk in the copper vat to blood heat, stirring gently to keep the cream from settling. She adds the starter culture and rennet, then leaves the vat covered while the milk sets into a trembling curd. With a long curd knife she cuts the gel into clean cubes, and whey begins to weep from the fresh surfaces. She stirs and heats slowly, the curds shrinking and firming as they expel moisture. The curds are drained in cheesecloth, salted, and pressed in the wooden hoop under increasing weight. After a night in the press the young wheel is firm and smooth. It will age on spruce boards for eight months. She flips the young wheel and salts the new rind. The cellar smells of ammonia and damp stone. The vat is scrubbed and scalded for tomorrow."
+  },
+  {
+   "text_id": "s2h_15",
+   "src_num": 215,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "wine making",
+   "text": "The winemaker tastes the crushed merlot must, judging sugar and acid before pitching the yeast. The fermentation bins are punched down three times daily, breaking the thick cap of skins so the color and tannin extract evenly into the juice. The cellar fills with the sharp sweet smell of active fermentation, carbon dioxide hissing softly from the airlocks. When the hydrometer reads dry, she presses the skins in the old basket press, the free run wine flowing dark into the waiting barrels. The new wine is racked off its lees into French oak, where it will rest for eighteen months. She chalks the vintage on each barrel head and rolls them into the cool dark. She tops up each barrel to replace the angels' share lost to evaporation. The heavy door swings shut on the cool dark."
+  },
+  {
+   "text_id": "s2h_16",
+   "src_num": 216,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "beer brewing",
+   "text": "The brewer mashes the crushed pale malt with hot water in the insulated tun, stirring to break up every dough ball. The sweet wort is lautered through the grain bed, running clear and amber into the copper kettle. She brings it to a rolling boil and adds the bittering hops, the resinous cones dissolving into the foam. Later additions of aroma hops go in near flameout, filling the brewhouse with pine and citrus. The wort is chilled through the plate exchanger and pitched with yeast in the fermenter. For two weeks it bubbles steadily, then conditions cold and bright. She bottles with priming sugar, caps each one, and stacks the cases to carbonate. She draws a sample to check the gravity with the hydrometer. Fermentation is nearly complete. The brewhouse cat supervises everything from atop the warm fermenter, purring loudly."
+  },
+  {
+   "text_id": "s2h_17",
+   "src_num": 217,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "chocolate making",
+   "text": "The chocolatier tempers the dark couverture on the marble slab, spreading and gathering the glossy mass with a palette knife until it thickens slightly at the working temperature. She tests a smear on parchment; it must set within minutes with a clean snap and satin sheen. The polycarbonate molds are filled, tapped sharply to release air bubbles, then inverted to drain the excess, leaving a thin shell. Ganache piped from a pastry bag fills each cavity, and a final layer of chocolate seals the bottoms. After chilling, the bonbons release with a sharp tap, gleaming. She arranges them in the box in neat rows, each one identical and perfect. She wipes the molds clean for the next batch. The kitchen smells intensely of cocoa and warm sugar. A few broken bonbons go into a bowl for the staff."
+  },
+  {
+   "text_id": "s2h_18",
+   "src_num": 218,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "pasta making",
+   "text": "The pasta maker mounds the flour on the wooden board and hollows a well in the center, breaking farm eggs into the crater with a pinch of salt. She draws the flour inward with a fork, the shaggy mass gradually coming together under her hands. Kneading for ten full minutes develops the gluten until the dough is smooth and springs back from a fingertip poke. It rests under an overturned bowl while she dusts the machine with semolina. Sheet by sheet she rolls it thinner, folding and refeeding until it turns translucent. The final pass through the tagliatelle cutters yields ribbons that curl softly. She nests them in floured coils to dry before cooking. She dusts the nests lightly once more before bagging. Dinner will be ready in four minutes of boiling water. Flour dusts her apron and the cat."
+  },
+  {
+   "text_id": "s2h_19",
+   "src_num": 219,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "barbecue smoking",
+   "text": "The pitmaster loads the offset smoker with seasoned oak splits and brings the chamber to a steady two hundred fifty degrees, thin blue smoke curling from the stack. The brisket, rubbed with salt and coarse pepper twelve hours earlier, goes on fat side up over the indirect heat. He spritzes the bark with apple cider vinegar every hour, watching the dark crust set and glisten. The stall comes mid afternoon, temperature refusing to climb, and he waits it out without wrapping, trusting the smoke. By evening the probe slides through the flat like warm butter. He rests the meat wrapped in butcher paper for two hours, then slices against the grain for the waiting line. He wraps the sliced brisket in pink paper for the judges. The bark is black and glistening, perfect. The judges nod, already reaching for more."
+  },
+  {
+   "text_id": "s2h_20",
+   "src_num": 220,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "jam making",
+   "text": "The preserver hulls the strawberries into the wide copper pan, crushing a few with the potato masher to release their juice. She stirs in the sugar and a squeeze of lemon, then sets the pan over a fierce flame. The mixture foams up violently, and she skims the pink scum with a slotted spoon, stirring constantly to keep the bottom from catching. A spoonful on a chilled saucer wrinkles when pushed, the setting point. She ladles the bubbling jam into sterilized jars, wipes the rims scrupulously, and seals the lids fingertip tight. The jars ping as they cool on the towel. Twelve jars of summer stand gleaming in a ruby row. She labels each jar with the date and fruit in neat script. She lines the pantry shelf with the jewel-colored jars, winter mornings secured in glass."
+  },
+  {
+   "text_id": "s2h_21",
+   "src_num": 221,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "honey harvesting",
+   "text": "The beekeeper puffs cool smoke across the hive entrance and waits for the low hum to deepen and settle. She pries the supers apart with the hive tool, lifting each frame to check that the cells are capped with wax, only capped honey is ripe. The frames go into the extractor, which spins them until the golden honey flings free against the steel drum. She opens the gate valve and watches the thick stream pour through the double sieve into the settling tank, catching bits of wax and the occasional bee. The honey rests overnight so air bubbles rise. By morning it pours clear and slow. She fills the jars, each one glowing amber in the light. She scrapes the cappings wax into the solar melter. Nothing is wasted; even the wax will become candles."
+  },
+  {
+   "text_id": "s2h_22",
+   "src_num": 222,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "olive oil pressing",
+   "text": "The miller tips the baskets of freshly picked olives into the washer, where leaves and twigs float away in the churning water. The clean fruit is crushed under the granite millstones into a coarse green paste, pits and all, the air filling with a grassy peppery scent. The paste is spread on stacked mats and pressed hydraulically, the first oil seeping out in a thin emerald stream. It flows into the separator, where the bitter vegetation water spins away from the precious oil. He draws a sample into a small blue glass, warms it in his palm, and tastes for fruitiness and bite. The new oil is bottled unfiltered, cloudy and intensely alive. He seals the bottles with the new vintage labels. The first pressing is always the proudest moment. The millstones are washed before the next load arrives."
+  },
+  {
+   "text_id": "s2h_23",
+   "src_num": 223,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "desert dawn",
+   "text": "First light touches the dune crests, turning the sand from ash gray to pale gold in a slow spreading wave. The air is still cold enough to raise goosebumps, and every stone casts a long violet shadow across the rippled ground. A roadrunner darts between creosote bushes, pausing to cock its head at some buried sound. The silence is so complete that the crunch of boots on the crust sounds intrusive. To the east the sky burns orange behind the jagged mountains, and the first warmth reaches the valley floor. Lizards emerge onto sunlit rocks, flattening their bodies to drink the heat. By full sunrise the desert is awake, shimmering and impossibly bright. A coyote trots along the wash, nose to the ground, utterly unconcerned by the watcher. The day shift has begun. The heat will build quickly now."
+  },
+  {
+   "text_id": "s2h_24",
+   "src_num": 224,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "mountain stream",
+   "text": "The stream drops over mossy stones in a series of white staircases, cold snowmelt chiming as it falls. Sunlight filters through the fir canopy in slanting bars, catching the spray where the water strikes a boulder and explodes upward. A dipper bobs on a midstream rock, then plunges into the current and walks the bottom against the flow, hunting caddis larvae. The banks are thick with ferns and the pale bells of false Solomon seal. Around a bend the water deepens into a dark green pool where trout hold station, fins barely moving, facing into the current. The stream smells of wet stone and pine resin, clean enough to drink straight from cupped hands. A kingfisher rattles past upstream, a flash of blue and rust. The stream runs on, indifferent and eternal, while a water ouzel calls from the far bank."
+  },
+  {
+   "text_id": "s2h_25",
+   "src_num": 225,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "coral reef",
+   "text": "The reef drops away beneath the boat in terraces of impossible color, staghorn coral branching like frozen lightning in shades of violet and gold. A green turtle glides past with ancient unhurried strokes, barnacles dotting its shell. Schools of blue chromis pulse above the coral heads, contracting and expanding as a single glittering organism. A moray eel gapes from its crevice, jaws working slowly, while cleaner shrimp pick parasites from its skin. On the sandy flat, a stingray ripples its wings and vanishes in a puff of silt. The water is warm as bathwater and clear to eighty feet. Every surface teems with life competing for light and space in this crowded underwater city. A hawksbill turtle rises for air, exhaling with a soft whoosh before diving again. The reef pulses with quiet industry. The dive boat engine starts above."
+  },
+  {
+   "text_id": "s2h_26",
+   "src_num": 226,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "volcanic crater",
+   "text": "The trail switchbacks up through black lava fields where nothing grows, the rocks still warm through boot soles near the fumaroles. Sulfur stains the ground yellow around each steaming vent, and the air smells sharply of rotten eggs. At the rim the wind hits hard, carrying grit that stings exposed skin. Below lies the crater floor, a vast bowl of ash and twisted formations, with a steaming lava lake glowing dull red at its center. Plumes of gas rise and tear apart in the wind. The scale dwarfs every human reference; the crater could swallow a town. The mountain rumbles faintly, a deep bass note felt in the chest, reminding everyone that it only sleeps. The guide checks his gas monitor and waves the group back from the rim. The mountain decides the itinerary here."
+  },
+  {
+   "text_id": "s2h_27",
+   "src_num": 227,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "glacier",
+   "text": "The glacier spills down the valley in a slow frozen river, its surface cracked into a maze of crevasses glowing impossible blue in their depths. Meltwater roars through ice tunnels beneath the surface, emerging at the snout in a milky torrent thick with rock flour. The ice groans and pops as it moves, calving house sized seracs that crash with thunderous echoes. Along the margins, striped moraines of ground rock mark the ice retreat, fresh scars on the polished bedrock. A braided river of meltwater spreads across the outwash plain, gray and churning. The cold radiating off the ice numbs exposed fingers within minutes, even under the bright alpine sun. A meltwater stream vanishes into a moulin, roaring down into blue depths. The glacier is full of hidden plumbing. What looks solid is mostly motion."
+  },
+  {
+   "text_id": "s2h_28",
+   "src_num": 228,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "savanna",
+   "text": "Heat shimmers above the tawny grass as the elephant herd moves single file toward the distant waterhole, calves tucked safely between the adults. Oxpeckers ride the broad backs, picking ticks with sharp precise jabs. A giraffe browses the flat topped acacia, its long tongue curling expertly around the thorns to strip the leaves. In the midday stillness even the insects seem to pause, and the only movement is the slow twitch of ears against flies. Far off, a dust plume marks where something runs, perhaps wild dogs coursing an impala. The herd reaches the muddy water and drinks deeply, trunks curling, while a fish eagle watches from a dead snag. The herd moves on, calves trotting to keep up, dust rising gold in the low sun. Night will bring the hunters out. Vultures circle high, waiting their turn."
+  },
+  {
+   "text_id": "s2h_29",
+   "src_num": 229,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "mangrove",
+   "text": "The kayak slips silently between the mangrove roots, the arched prop roots forming a dripping cathedral overhead. Fiddler crabs wave their single oversized claws from the mud banks, retreating into burrows as the bow wave approaches. The water is tea colored and perfectly still, mirroring the tangled green canopy so completely that up and down lose meaning. A heron stands motionless on a root knee, neck coiled, then strikes faster than the eye can follow. Oysters crust the lower roots in gray clusters, filtering the tidal flow. The air smells of salt and rich decay, the nursery perfume of the sea. Somewhere deep in the maze, a kingfisher rattles its harsh call. The tide turns, and the current begins to pull seaward through the roots. The kayak drifts silently with it. Mudskippers flop across the exposed bank."
+  },
+  {
+   "text_id": "s2h_30",
+   "src_num": 230,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "alpine meadow",
+   "text": "July has finally melted the last snowfields, and the meadow erupts in a riot of paintbrush, lupine, and glacier lily. Marmots whistle warnings from their boulder perches as a hawk circles on a thermal above the cirque. The air is thin and startlingly clear, carrying the sweet scent of warmed pine from the krummholz below. A pika darts between rocks with a mouthful of grass, building its haypile against the coming winter it will never sleep through. Bees work the flower heads in a drowsy hum. To the west the peaks still hold their snow, white against a sky so blue it hurts the eyes. The season here is brief and furious, every living thing racing the returning cold. Clouds build over the peaks by noon, and the wise hiker is below treeline before the lightning starts."
+  },
+  {
+   "text_id": "s2h_31",
+   "src_num": 231,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "redwood forest",
+   "text": "The trail winds between trunks wider than a small room, their bark furrowed deep and soft with centuries of moss. Light falls in green filtered shafts, and the air hangs cool and damp, smelling of tannin and ancient decay. A banana slug the length of a hand glides across the path, bright yellow against the dark humus. High above, the canopy is lost in fog that drips steadily, watering the sorrel and redwood violets carpeting the floor. A pileated woodpecker hammers somewhere out of sight, the sound rolling through the colossal columns. These trees were seedlings when Rome fell. Walking among them feels less like hiking and more like entering a cathedral built by time itself. A banana slug crosses the trail, antennae waving, in no hurry whatsoever. Time moves differently among giants. The fog drips steadily from every needle."
+  },
+  {
+   "text_id": "s2h_32",
+   "src_num": 232,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "cave exploration",
+   "text": "The headlamps cut thin beams through absolute darkness as the team squeezes through the crawlway, helmets scraping limestone. Beyond, the passage opens into a chamber so vast the lights cannot find the far wall. Stalactites hang like stone icicles, some meeting their upward growing partners to form massive columns. The air is cold and utterly still, smelling of wet rock and deep time. A blind cavefish flickers through a rimstone pool, pale as bone. Every footstep must be placed with care; a broken formation took ten thousand years to grow. The guide calls a halt at the underground river, its black water sliding silently past, destination unknown. The team clips into the fixed line for the descent to the river. Headlamps bob in the darkness like fireflies. The water is shockingly cold. The survey team maps every passage."
+  },
+  {
+   "text_id": "s2h_33",
+   "src_num": 233,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "hot spring",
+   "text": "Steam rises in thick columns from the turquoise pool, condensing on the overhanging pines and dripping back with soft plinks. The water is almost too hot at the source, cooling to perfect bath temperature where the current eddies around the smooth boulders. Bathers sit shoulder deep, faces flushed, watching snowflakes vanish the instant they touch the steaming surface. The mineral smell is faintly sulfurous but clean, nothing like the harsh vents higher up the mountain. Orange bacterial mats fringe the outflow channel in vivid terraces. A raven lands on the wooden railing, tilts its head at the strange pink humans, and croaks once before launching back into the falling snow. Someone adds another log to the changing room stove. The snow keeps falling, hissing where it meets the hot water. The stars emerge as the steam thins."
+  },
+  {
+   "text_id": "s2h_34",
+   "src_num": 234,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "prairie storm",
+   "text": "The western sky turns the color of old bruises, purple and green, as the anvil cloud towers over the flat horizon. The air goes preternaturally still; even the meadowlarks fall silent. Then the outflow hits like a wall, dust and grass flattening in a single direction, the temperature dropping fifteen degrees in minutes. Lightning walks across the cloud base in flickering sheets, and thunder follows with barely a pause. The rain comes in gray curtains, hammering the tin roof of the barn and turning the dirt road to instant mud. Hail rattles briefly, bouncing white off the fence posts. Twenty minutes later the sun breaks through, and steam rises from the soaked earth. The rain barrel overflows and the chickens complain from the coop. The storm has done its work and moved on. The wheat stands flattened in swirls."
+  },
+  {
+   "text_id": "s2h_35",
+   "src_num": 235,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "autumn forest",
+   "text": "The maple canopy burns red and gold overhead, and every breeze releases a fresh shower of leaves that spiral down to join the deepening carpet. The trail is soft underfoot, the fallen foliage muffling each step and releasing a sharp sweet smell of decay. A chipmunk stuffs its cheek pouches with beechnuts, pausing to glare before darting into a hollow log. Fungi push through the leaf litter in pale shelves and scarlet caps, fruiting in the damp cool. The light slants low and amber through the thinning branches, gilding spiderwebs strung between trunks. Somewhere a ruffed grouse drums its hollow log tattoo. The forest is spending its stored summer in one last extravagant display. A barred owl calls from the deep woods, eight hoots in the classic pattern. The light fades to violet. The first frost will come tonight."
+  },
+  {
+   "text_id": "s2h_36",
+   "src_num": 236,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "winter lake",
+   "text": "The lake lies locked under eighteen inches of black ice, so clear in places that trapped bubbles and frozen weeds show like specimens in glass. Snow has drifted into long white dunes across the surface, sculpted by the wind into sharp sastrugi ridges. The silence is profound, broken only by the occasional deep boom as the ice contracts in the cold, a sound like a distant cannon. Near shore, the ice fishers huddle over their holes in canvas shelters, tip ups flagged and waiting. A bald eagle perches on the dead pine at the point, watching for any fish foolish enough to cruise the shallows. The sun hangs low and gives no warmth, a pale coin in a white sky. The tip up flag flies and someone shouts. Boots crunch across the ice toward the hole, hopeful."
+  },
+  {
+   "text_id": "s2h_37",
+   "src_num": 237,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "spring meadow",
+   "text": "The meadow wakes all at once after the late snow, shoots of green pushing through the matted brown thatch of last year. Skunk cabbage unfurls its waxy leaves along the seep, and the first marsh marigolds open their glossy yellow cups. Red winged blackbirds claim the cattails, puffing their scarlet epaulets and calling their liquid konk a ree songs. The creek runs bank full and tea colored with snowmelt, spilling across the low spots into temporary mirrors that reflect the racing clouds. A garter snake basks on a flat stone, sluggish but alive. Everywhere is the smell of wet earth and new growth, the particular perfume of a world restarting itself after the long freeze. Frogs begin their evening chorus from the flooded ditch, a sound like thousands of loose banjo strings. The peepers tune up for the night."
+  },
+  {
+   "text_id": "s2h_38",
+   "src_num": 238,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "coastal cliff",
+   "text": "The path follows the cliff edge where the land simply ends, dropping two hundred feet to the churning water below. Gannets fold their wings and plummet like white darts, hitting the sea with barely a splash and surfacing with silver fish. The wind is constant and clean, tasting of salt, bending the stunted hawthorns into permanent inland leans. Sea pinks nod in the thin turf, impossibly delicate against the violence of the place. Far below, the waves detonate against the black rocks, throwing spray halfway up the cliff face. A peregrine slices past at eye level, riding the updraft without a single wingbeat. The ocean stretches to the horizon, indifferent and magnificent. The foghorn sounds from the point below, mournful and regular. The cliffs vanish into white within minutes. The tide turns far below, unseen."
+  },
+  {
+   "text_id": "s2h_39",
+   "src_num": 239,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "river delta",
+   "text": "The river splinters into a maze of brown channels braiding through the reed beds, too shallow for boats and too deep for wading. Egrets stalk the mudflats on stilt legs, stabbing at minnows in the receding tide. The air is thick with mosquitoes and the sweet rot of the marsh, a smell both fertile and faintly corrupt. A beaver slaps its tail in warning from a half built dam of sticks and mud. Dragonflies patrol the still backwaters, wings blurring iridescent. Toward the sea the channels widen and the water turns brackish, salt and fresh mixing in visible swirling lines. The delta is neither land nor water but a negotiation between the two, rewritten with every flood. A muskrat swims past with a mouthful of reeds, building higher against the spring floods to come. The sun sets red over the reeds."
+  },
+  {
+   "text_id": "s2h_40",
+   "src_num": 240,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "deep-sea fishing",
+   "text": "The charter boat rolls in the long Pacific swell, fifty miles from land, the depth sounder reading six hundred feet of blue water below. The captain throttles back over the seamount and the deckhand drops the weighted lines, baited with live mackerel, into the dark. The wait is part of the ritual, coffee, scanning the horizon for birds, watching the rod tips tremble. Then a reel screams, line peeling off against the drag, and the angler straps into the fighting chair. Twenty minutes of pumping and reeling, arms burning, brings a flash of silver alongside. The gaff swings, and a yellowfin tuna thuds onto the deck, beautiful and furious, easily a hundred pounds. The deckhand bleeds the tuna and packs it in the ice hold. The meat will be sashimi grade by dock. The mate hoses the deck clean."
+  },
+  {
+   "text_id": "s2h_41",
+   "src_num": 241,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "lighthouse keeping",
+   "text": "The keeper climbs the ninety seven iron steps at dusk, the familiar rhythm of the ascent unchanged in thirty years. He checks the great Fresnel lens for dust, polishing each prism with a soft cloth until it throws perfect rainbows across the lamp room. At precisely sunset he lights the lamp, and the huge lens begins its slow rotation, throwing its double flash across twenty miles of black water. Below, the surf worries the rocks with its endless complaint. He logs the weather, the barometer falling, and a distant steamer passing south. Through the night he tends the light in four hour watches, dozing between, waking to the clockwork tick of the rotating mechanism and the gull cries in the dark. He trims the wicks and polishes the lens once more before dawn. The light has never failed on his watch."
+  },
+  {
+   "text_id": "s2h_42",
+   "src_num": 242,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "boat building",
+   "text": "The builder spiles the oak plank against the hull, marking the curve with a compass before cutting the bevel on the bandsaw. Each strake is steamed in the long box until the wood sweats, then bent quickly around the molds and clamped before it cools and sets. Copper rivets fasten plank to frame, each one roved and peened with a ball peen hammer in a ringing rhythm. The seams are caulked with cotton driven deep by the iron, then payed with hot pitch that smells of tar and pine. She takes shape slowly, ribs and planks becoming a coherent whole. By launching day the hull gleams with fresh paint, and she slides down the ways into the harbor with barely a ripple. She runs her hand along the sheer line, checking the fairness by eye. The curve pleases her."
+  },
+  {
+   "text_id": "s2h_43",
+   "src_num": 243,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "pearl diving",
+   "text": "The diver takes three deep breaths, jacks the knife into his belt, and rolls backward off the gunwale into the warm lagoon. He kicks downward along the anchor line, equalizing steadily, the light fading from turquoise to deep blue. At sixty feet the pressure squeezes his chest and the bottom comes up, a field of giant oysters cemented to the coral rock. He works quickly, prying the largest shells free and stuffing them into the net bag, lungs already burning. The ascent must be slow despite the urge to rush. He breaks the surface gasping, hands the bag up, and floats on his back recovering. Later the oysters are shucked one by one, each opened with held breath and hope. The captain marks the productive reef on the chart with an X. Tomorrow they will return at slack tide."
+  },
+  {
+   "text_id": "s2h_44",
+   "src_num": 244,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "kelp forest",
+   "text": "The forest sways in the surge forty feet below the surface, giant kelp rising from the rocky bottom in golden brown ribbons that stretch toward the light. Sea otters roll in the canopy, cracking urchins on their chests with stones, the crunch audible through the water. Garibaldi damselfish flash brilliant orange as they defend their algae gardens from intruders. A harbor seal weaves between the stipes with impossible grace, bubbles trailing from its whiskered snout. Shafts of green light pierce the fronds, illuminating drifting motes and the occasional hunting leopard shark. The whole forest breathes with the swell, bending and straightening in a slow underwater dance choreographed by the distant ocean. A sea lion torpedoes through the fronds, barking bubbles, gone before the eye can follow. The forest sways on. The surge eases as the tide slacks."
+  },
+  {
+   "text_id": "s2h_45",
+   "src_num": 245,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "harbor at dawn",
+   "text": "The harbor wakes in layers, first the gulls, then the diesel cough of the first trawler, then the clang of rigging against aluminum masts. Mist lies on the flat water in thin patches, and the rising sun turns it pink and gold. A lobsterman coils his lines on the stern, bait bags stacked and ready, coffee steaming in a chipped mug. The fuel dock attendant hoses down the concrete, sending rainbow slicks of oil toward the scuppers. Across the channel the lighthouse gives its last flash before the keeper extinguishes it for the day. One by one the boats cast off, wakes spreading behind them, and the harbor empties toward the fishing grounds as the town behind it stirs awake. The last boat clears the breakwater as the sun clears the rooftops. The day fleet is away."
+  },
+  {
+   "text_id": "s2h_46",
+   "src_num": 246,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "canal lock",
+   "text": "The narrowboat glides into the stone chamber and the gates swing shut behind it with a deep wooden boom. The lock keeper winds the paddle gear, and water begins to pour through the sluices with a rising roar. The boat lifts steadily, fenders squeaking against the slimy walls, the crew holding the center line loosely as she rises eight feet. Through the top gates they can see the next pound stretching green and calm. When the water levels equalize, the top gates are hauled open with the long balance beams, and the boat motors out into the sunlight. Behind them the keeper closes everything down, and the chamber settles, ready for the next traveler. Ducks paddle into the chamber behind the boat, hoping for disturbed minnows. The keeper shoos them gently. A heron watches from the lock tail."
+  },
+  {
+   "text_id": "s2h_47",
+   "src_num": 247,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "ferry crossing",
+   "text": "The ferry pulls away from the slip with a shudder of its great engines, the city skyline shrinking astern. Commuters claim their usual seats, the knitter by the window, the chess players at the rear table, settling into the forty minute ritual. Gulls trail the wake, screaming and diving for scraps churned up by the propellers. Midway across, the water turns from harbor gray to open sea green, and the far shore resolves from haze into houses and trees. The deckhand coils the mooring lines in preparation, timing perfected over a thousand crossings. The dock approaches, bumpers squeal, and the ramp drops with a clang. The crowd flows off, dispersing into the island town like water finding its level. The horn sounds twice as they near the dock. Cars idle in the holding lanes, waiting their turn."
+  },
+  {
+   "text_id": "s2h_48",
+   "src_num": 248,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "ice fishing",
+   "text": "The auger bites through two feet of lake ice, chips flying, until dark water wells up in the hole with a soft gurgle. He scoops the slush with the skimmer and sets the tip up, the small flag cocked and waiting. Inside the canvas shelter the propane heater ticks, and the air smells of coffee and neoprene. Through the hole he can see down into green blackness, the jigging spoon flashing as he works it. Hours pass in comfortable silence, broken only by the groaning of the ice shifting somewhere out in the white expanse. Suddenly the flag snaps upright, fish on. He scrambles out, grabs the line hand over hand, and hauls a fat walleye flopping onto the ice. He rebaits the hook with a fresh minnow and drops it back down. Patience is the whole sport."
+  },
+  {
+   "text_id": "s2h_49",
+   "src_num": 249,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "street food vendor",
+   "text": "The vendor fans the charcoal under the flat top grill, coaxing the coals to an even orange glow before the lunch rush. Skewers of marinated lamb go on first, hissing and dripping fat that flares into brief delicious flames. He flips them with long tongs, never breaking rhythm, while with the other hand he warms the flatbread directly on the grill. Onions and peppers char in a corner, chopped roughly and piled onto each order. The line stretches down the block, taxi drivers, office workers, tourists, all drawn by the smoke and the smell. He wraps each portion in paper with a practiced flick, takes the cash, makes change, and the next skewers are already on. He wipes the grill and starts the next batch before the line can thin. The rhythm never breaks. The lunch rush never really ends."
+  },
+  {
+   "text_id": "s2h_50",
+   "src_num": 250,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "subway musician",
+   "text": "The violinist rosins her bow in the tiled tunnel where the acoustics turn every note golden. She launches into a Bach partita, and the commuters streaming past slow almost imperceptibly, a few dropping coins without breaking stride. A child stops fully, tugging her mother sleeve, transfixed by the flying fingers. Between pieces the musician sips water and retunes, nodding thanks to the regulars who always pause. The trains thunder through on both sides, drowning the music in gusts of warm brake smelling air, and she waits, bow poised, for the roar to fade. By rush hour end her case holds a scatter of bills and coins, enough for dinner and tomorrow train fare. A businessman in a hurry stops, listens through a whole movement, and folds a twenty into the case. She packs up as the crowds thin."
+  },
+  {
+   "text_id": "s2h_51",
+   "src_num": 251,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "old library",
+   "text": "Dust hangs in the slanted light from the tall arched windows, each mote drifting through air that smells of old paper and leather bindings. The reading room stretches the length of the building, long oak tables flanked by green shaded lamps, most of them occupied by silent bent heads. Somewhere a page turns with a soft whisper. The stacks rise three floors behind iron grilles, millions of spines in dim order, accessible only by the brass railed balconies. The librarian stamps returns at the great desk with a rhythmic thump, thump. A student dozes over an open atlas, cheek nearly touching the page. Time moves differently here, measured in chapters rather than hours, and nobody is in a hurry. The clock in the tower strikes the hour, muffled by stone and paper. Nobody looks up."
+  },
+  {
+   "text_id": "s2h_52",
+   "src_num": 252,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "museum gallery",
+   "text": "The gallery is hushed, the only sound the soft squeak of shoes on the polished concrete floor. A Rothko fills the far wall with throbbing rectangles of maroon and black, and a bench sits centered before it for long looking. Schoolchildren cluster around the docent, whispering, while an old man stands motionless before a small Dutch interior, lost in its window light. The guard by the doorway has perfected the art of watching without staring. In the sculpture court, a Calder mobile turns slowly in the air currents, red and yellow planes balancing impossibly. The afternoon sun angles through the skylights, laying bright bars across the floor that shift as the minutes pass. Nobody speaks above a murmur; the art requires it. A child asks loudly why the painting is just squares, and her mother shushes her, smiling."
+  },
+  {
+   "text_id": "s2h_53",
+   "src_num": 253,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "construction site",
+   "text": "The tower crane swings its load of steel beams over the half built skeleton, the signalman guiding it with crisp hand gestures. Welders shower sparks from the upper floors, their arcs flickering blue white against the gray morning. Below, the concrete pump extends its articulated arm like a great insect, pouring the next deck in a smooth continuous ribbon. Rebar workers tie the steel mat with quick twists of wire, moving in practiced pairs. The whole site hums and clangs, backup alarms, the diesel thump of the compressor, shouted warnings. A fine dust of concrete hangs in the air, coating every surface. By quitting time two more floors stand framed against the sky, the building growing visibly by the day. The foreman calls the crew in as the light fails. The crane parks its jib for the night."
+  },
+  {
+   "text_id": "s2h_54",
+   "src_num": 254,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "train station",
+   "text": "The departure board flips with its familiar clatter, and a wave of travelers surges toward platform nine. The express pulls in with a rush of displaced air, brakes sighing, doors aligning with the painted marks. Conductors in dark uniforms check tickets with practiced glances, waving latecomers aboard. On the platform, reunions and farewells play out in every language, embraces, tears, hurried last instructions. A pigeon struts along the yellow line, utterly unimpressed by the machinery. The whistle sounds, doors thump shut, and the train glides out, gathering speed until the tail lights vanish into the tunnel mouth. The platform empties, then fills again for the next arrival. The announcer calls the delayed train, and a collective sigh rises from the waiting crowd. Coffee sales spike. The pigeon continues its patrol, undisturbed. The clock shows five minutes fast, as always."
+  },
+  {
+   "text_id": "s2h_55",
+   "src_num": 255,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "bakery at dawn",
+   "text": "The baker slides the first rack of baguettes into the deck oven at four thirty, the loaves pale and slack from their overnight proof. Within minutes the shop fills with the smell of caramelizing crust, rich and wheaty. He scores the next batch with quick sure slashes, the blade barely kissing the surface. Croissants go in after, their laminated layers puffing into golden crescents. At six the front door unlocks and the early customers appear, night shift workers, joggers, a cab driver who buys the same almond twist every day. The display case fills and empties in waves. By eight the baguettes are gone, and the baker is already mixing tomorrow dough, flour dusting his forearms white. The ovens are reloaded for the second bake as the sun comes up. The day smells of yeast and warmth."
+  },
+  {
+   "text_id": "s2h_56",
+   "src_num": 256,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "flower market",
+   "text": "The market opens in darkness, wholesalers wheeling dollies stacked with buckets of roses, peonies, and ranunculus through the puddled aisles. The air is cold and sweet, thick with competing perfumes. Florists move quickly, judging freshness by the firmness of the bud and the snap of the stem, filling their arms with color. A vendor trims thorns with rhythmic snips, stripping each rose in two practiced pulls. By sunrise the retail crowd arrives, and the stalls transform into riots of arranged bouquets. Sunlight slants through the corrugated roof, catching the mist from the spray bottles. Petals drift across the wet concrete like confetti. By noon the best stock is gone, petals crushed underfoot releasing their last perfume as the sweepers move in with wide brooms. The last buckets are loaded for the compost truck. Tomorrow it all begins again before dawn."
+  },
+  {
+   "text_id": "s2h_57",
+   "src_num": 257,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "birdwatching",
+   "text": "Dawn in the marsh, and the warblers are already active in the willow thicket, a confusion of yellow flashes and buzzy songs. The birder raises her binoculars at a sharp chip note and finds a prothonotary warbler glowing like a lantern against the dark leaves, a lifer, and her hands tremble slightly as she notes it. A marsh wren scolds from the cattails, tail cocked straight up. Overhead, a harrier quarters the reeds on motionless wings, dropping suddenly onto something unseen. The checklist grows: redstart, yellowthroat, a distant bittern booming like someone blowing across a jug. By nine the chorus quiets and the heat rises. She lowers the glasses, smiling, already planning tomorrow. She logs the lifer with shaking hands, then keeps watching. The marsh has more to show. A bittern booms once, then silence."
+  },
+  {
+   "text_id": "s2h_58",
+   "src_num": 258,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "vegetable gardening",
+   "text": "The gardener forks the bed in early April, turning under the winter cover crop and working in two wheelbarrows of composted manure. She draws straight furrows with the corner of the hoe and sows the peas fatly, pressing each one into the cool dark soil. Tomato seedlings go in after the last frost date, each one buried deep to the first true leaves and caged immediately against the wind. The beans climb their tripod of poles within weeks, and the squash sprawls gloriously across the path no matter how often she redirects it. By August the harvest is overwhelming, baskets of zucchini left anonymously on neighbors porches. She cans tomatoes until midnight, the kitchen steamy and smelling of basil. She pulls the last weeds as the sun sets, hands stained green. The garden is sleeping now."
+  },
+  {
+   "text_id": "s2h_59",
+   "src_num": 259,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "beekeeping",
+   "text": "The beekeeper lights the smoker and works the bellows until cool white smoke pours from the spout. A few puffs across the entrance and the guard bees retreat inside, their alarm pheromone masked. She pries the propolis sealed cover loose and lifts out a frame heavy with capped honey, the wax seals glowing in the sun. The bees boil over the top bars, thousands of them, but they are docile in the smoke, more interested in gorging on honey than in stinging. She checks for the queen, there, long abdomen, attendants circling, and for signs of mites on the drone brood. Satisfied, she reassembles the hive, each box settled gently so no bee is crushed. She records the hive weight and mite count in the logbook. The colonies look strong for winter. The smoker is damped for the next hive."
+  },
+  {
+   "text_id": "s2h_60",
+   "src_num": 260,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "maple sugaring",
+   "text": "February thaw, and the sap is running. The sugar maker drills each maple with a sharp brace, the bit biting into white wood that smells faintly sweet. A spile is tapped gently into the hole, and the first drops fall clear as water into the hanging bucket. Gathering is done with shoulder yokes and five gallon pails, the sap sloshing as she moves tree to tree through the knee deep snow. At the sugar shack the evaporator roars, forty gallons of sap boiling down to a single gallon of syrup. She watches the thermometer and the sheeting test, drawing off at exactly the right density. The finished syrup pours amber and thick, tasting of woodsmoke and spring. The last boil finishes by lamplight, steam fogging the shack windows. Spring is coming. The buckets are emptied one last time."
+  },
+  {
+   "text_id": "s2h_61",
+   "src_num": 261,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "rice planting",
+   "text": "The paddy is flooded to a mirror, reflecting the green hills and the workers bent double in rows. Each planter takes a bundle of seedlings in the left hand and sets them with the right, three to a hill, spacing by eye at exactly six inches. The mud sucks at bare feet and the sun beats down, but the line moves steadily across the field, chatter and laughter carrying over the water. Behind them, egrets stalk the disturbed shallows, snatching frogs and insects. By midday the whole paddy is a grid of vivid green tufts standing in silver water. The planters straighten their aching backs at the dike, rinse their legs, and share cold tea and rice balls in the shade. The foreman calls the break, and everyone wades to the dike. The field is half planted."
+  },
+  {
+   "text_id": "s2h_62",
+   "src_num": 262,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "sheep shearing",
+   "text": "The shearer settles the ewe between his knees, her head cradled under his left arm, and fires up the handpiece with a practiced flick. The comb glides along the belly in long smooth blows, the greasy wool peeling away in one continuous sheet like a gray carpet unrolling. He works up the neck, around the legs with careful short strokes to avoid nicking the skin, then the final passes down the back. In under three minutes the sheep stands naked and blinking, ten pounds lighter, looking faintly embarrassed. The fleece is skirted on the table, dags and belly wool tossed aside, then rolled flesh side out and tied with paper twine. The ewe trots off to join the shorn mob, baaing. The wool classer grades each fleece by hand and micron. The bales stack high in the shed."
+  },
+  {
+   "text_id": "s2h_63",
+   "src_num": 263,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "falconry",
+   "text": "The falconer raises the lure on its long line, swinging it in widening circles as the gyrfalcon climbs on rapid wingbeats. At two hundred feet the bird turns into a speck, then stoops, wings folded, falling like a thrown spear at impossible speed. The lure jerks aside at the last instant and the falcon flares, braking hard, talons outstretched but empty. Again the climb, again the stoop, the training building the muscle memory of the hunt. On the third pass she lets the bird take the lure, and it mantles over its prize on the ground, wings spread protectively. She approaches slowly, offers the tidbit, and trades up. The falcon steps to the glove, hooded and calm, its work done. The bird bates briefly, then settles, feathers sleek. Trust is built one flight at a time."
+  },
+  {
+   "text_id": "s2h_64",
+   "src_num": 264,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "archery",
+   "text": "The archer nocks the arrow and raises the recurve bow, settling into her stance with feet shoulder width apart. She draws smoothly to anchor, string touching the corner of her mouth, and sights down the shaft at the gold seventy meters distant. The world narrows to the target face; her breathing slows, and she expands through the shot rather than forcing the release. The string slips from her fingers with a soft twang, and the arrow is gone before the sound registers, a black line crossing the field. It strikes with a solid thunk, buried in the red ring just left of center. She lowers the bow, already analyzing the shot, and nocks another. She adjusts the sight a single click left. The next arrow finds the gold with a satisfying thud. She unstrings the bow with care."
+  },
+  {
+   "text_id": "s2h_65",
+   "src_num": 265,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "rowing",
+   "text": "The eight slides forward as one, blades feathered inches above the black water, then catches together with a single clean splash. The drive is all legs, backs swinging open, arms drawing last, the shell surging beneath them. The coxswain calls the rhythm from the stern, voice carrying over the puddles hissing astern. At the thousand meter mark the lactic acid burns and the technique starts to fray, a blade catches a crab, the boat shudders, but the crew rows through it. The final sprint is pure will, stroke rate climbing to thirty eight, the finish line buoy growing larger. They cross with nothing left, chests heaving, the shell gliding out as eight heads drop forward in unison. The cox calls for the cool down, and the rate drops to a gentle twenty. The pain fades to ache."
+  },
+  {
+   "text_id": "s2h_66",
+   "src_num": 266,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "open-water swimming",
+   "text": "The swimmer wades past the breakers and dives into the green swell, the cold shock stealing her breath for three strokes. She settles into her rhythm, bilateral breathing every third stroke, sighting on the distant headland each time her head turns. The water is alive around her, jellyfish pulsing below like slow hearts, a seal watching from twenty yards with dark curious eyes. Swell lifts and drops her in long slow hills, and she times her breathing to the troughs. Salt cakes her lips and her shoulders burn pleasantly by the halfway buoy. The beach looks impossibly far, then suddenly near. She stands in the shallows, dizzy and grinning, wetsuit peeling away from skin gone numb and happy. She towels off and drinks hot tea from a thermos, shivering happily. The sea was worth it."
+  },
+  {
+   "text_id": "s2h_67",
+   "src_num": 267,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "ridge hiking",
+   "text": "The trail follows the knife edge ridge, dropping away on both sides into valleys hazy with distance. The hiker moves steadily, poles clicking on the granite, pausing at each false summit to check the map against the real peaks. Marmots whistle from the talus slopes, and a golden eagle rides the updraft below the trail level, close enough to see the individual feathers. The wind is strong and cold despite the sun, tugging at the pack straps. Lunch is eaten sitting on a warm boulder, legs dangling over a thousand foot drop, the whole range spread out like a relief map. The descent begins through switchbacks in the late light, knees complaining, the parking lot still two hours and a world away. The headlamps come out for the last mile, bobbing in the dark. The cars are a welcome sight."
+  },
+  {
+   "text_id": "s2h_68",
+   "src_num": 268,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "hat making",
+   "text": "The milliner steams the felt hood over the wooden block, pulling and smoothing it down over the crown with practiced hands. Pins hold the brim at the exact width while it dries, the felt shrinking slightly to grip the block. She trims the edge with a curved knife, then binds it with grosgrain ribbon sewn in tiny invisible stitches. The crown is shaped with steam and pressure, a center dent, pinched front, each crease set permanently into the fibers. A silk lining goes inside, and the leather sweatband is sewn to the base. The finished fedora sits perfectly balanced on the stand, its brim snapping crisply when flicked. She boxes it in tissue, ready for a head it has never met. She stamps the size inside the sweatband and brushes the felt once more. It is ready."
+  },
+  {
+   "text_id": "s2h_69",
+   "src_num": 269,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "broom making",
+   "text": "The broom maker sorts the broomcorn into hanks by length, the golden straw smelling of dry fields and summer. She clamps the handle in the vise and lays the first layer of hattle around the end, winding the twine tight with the foot powered winder. Layer upon layer builds the sweeping head, each one slightly shorter, fanning the straw into the classic turkey wing shape. Two rows of stitching go through the head with the long needle, cinching the straw flat and true. She trims the bottom edge perfectly straight with the big shears, the cut ends falling like pale rain. The finished broom balances in her hand, light and springy, ready for twenty years of floors. She ties the hang cord and tests the balance. It sweeps clean on the first pass. The workshop smells of straw and twine."
+  },
+  {
+   "text_id": "s2h_70",
+   "src_num": 270,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "net mending",
+   "text": "The fisherman spreads the torn trawl net across the dock planks and finds the rent with his fingers, following the broken mesh to its edges. He threads the bone needle with tarred twine and begins the patient work of rebuilding, looping each new mesh to match the exact size of its neighbors using the wooden gauge. The knots are sheet bends, pulled tight and true, each one identical to the thousand surrounding it. Gulls cry overhead and the tide slaps the pilings as he works down the tear, the net whole again behind his hands. He tests the repair with a hard pull; it holds. The net is coiled and stowed, ready for the next set, the mend invisible to any eye but his. He hangs the repaired net to dry, checking the mend once more. It will fish for years."
+  },
+  {
+   "text_id": "s2h_71",
+   "src_num": 271,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "thatching",
+   "text": "The thatcher lays the first bundles of water reed along the eaves, butts aligned with a snap of the leggett. Each yealm is fixed with a hazel spar twisted into a staple, driven deep into the battens with the mallet. He works upward in overlapping courses, the layers like fish scales, each one shedding water to the next. The reed is combed straight with the leggett, every stem lying parallel, the roof surface growing dense and even. Around the chimney he weaves a careful flashing of longer stems. The ridge is capped with a decorative scallop pattern, the thatcher signature. From the ground the finished roof looks like velvet, golden brown, and will shed rain for sixty years. He steps back to admire the straight courses from the lane. The roof will outlive him. Sparrows investigate the new ridge."
+  },
+  {
+   "text_id": "s2h_72",
+   "src_num": 272,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "tile making",
+   "text": "The tile maker wedges the terracotta clay to drive out every air bubble, then rolls it to an even slab with the heavy wooden roller. The template guides her knife in a clean rectangle, and she bevels the edges with a damp sponge. Each tile is stamped on the back with the workshop mark before being laid on the drying racks, turned daily so it dries evenly and does not warp. After a week of careful drying the tiles are stacked in the kiln, fired to a ringing hardness over two days. She sorts the fired tiles by tone, the natural variation running from salmon to deep rust. The best are packed in straw for the roofer, each one a small promise of shelter. She stacks the cooled tiles with straw between each layer. The kiln is already being loaded again."
+  },
+  {
+   "text_id": "s2h_73",
+   "src_num": 273,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "mushroom foraging",
+   "text": "The forager moves slowly through the damp October woods, eyes on the ground where the chanterelles push through the moss in golden clusters. She cuts each stem cleanly with the small knife, leaving the mycelium undisturbed, and brushes the dirt from the caps before they go into the wicker basket. False gills, forked and blunt, true chanterelles, every one. She checks each specimen twice; a mistake with mushrooms is not a stomachache but a hospital visit. Under a fallen oak she finds a flush of hen of the woods, frilly and huge, too much to carry. She marks the spot on her mental map for next week. The basket grows heavy with the sweet apricot smell of a good day. She finds a king bolete, firm and perfect, and adds it gently to the basket. Dinner is decided."
+  },
+  {
+   "text_id": "s2h_74",
+   "src_num": 274,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "tea picking",
+   "text": "The pickers move down the terraced rows at first light, baskets strapped to their foreheads, hands flying in the practiced two leaves and a bud pluck. Only the tender new growth is taken; anything coarse is left for the next flush. The baskets fill with surprising speed, the fresh leaves cool and faintly grassy smelling. By midmorning the full baskets are carried to the weighing station, where each picker load is recorded in the ledger with a stub of pencil. The leaves go straight to the withering troughs, delay ruins the flavor. An experienced picker gathers twenty kilos in a day without straightening her back. The garden stretches green and endless, and tomorrow the same rows will be ready again. The baskets are weighed and the pickers paid by the kilo. The best leaves go to the first flush lot."
+  },
+  {
+   "text_id": "s2h_75",
+   "src_num": 275,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "salt harvesting",
+   "text": "The salt worker rakes the crystallizing pans at dawn, when the overnight evaporation has left a fresh white crust on the pink brine. The wooden rake gathers the crystals into long windrows, each stroke precise to avoid stirring the bitter magnesium salts from the bottom. Wheelbarrows carry the harvest to the draining piles, where it sits for days while the last bittern drips away. The finished salt is dazzling white, dry, and faintly sweet, nothing like the harsh gray stuff from the lower pans. Gulls scream overhead, and the whole marsh smells of brine and sun baked mud. By noon the heat shimmers off the pans and the workers retreat to the shade, the harvest stacked and waiting. The foreman grades the piles by whiteness before bagging. The premium salt fetches triple the price. The pans glitter white at noon."
+  },
+  {
+   "text_id": "s2h_76",
+   "src_num": 276,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "cloud forest",
+   "text": "The trail climbs into the clouds themselves, and the forest dissolves into white drifting mist. Every surface drips, moss hangs in long green beards from branches you cannot see, and the ground is a sponge of saturated humus. A quetzal calls somewhere in the white, its tail streamers flashing emerald for one heartbeat before the fog closes again. Bromeliads the size of armchairs perch in the crotches of ancient oaks, each one a tiny pond ecosystem. The air is cool enough to see your breath, though you are ten degrees from the equator. Orchids bloom invisibly all around, scenting the mist with vanilla and rot. This is a forest that drinks the sky. The mist parts for a moment, revealing the valley far below, then closes like a curtain. Magic, briefly. A tapir crashes through the undergrowth below."
+  },
+  {
+   "text_id": "s2h_77",
+   "src_num": 277,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "book printing press",
+   "text": "The pressman inks the forme with the leather dabbers, working the black grease into every letter of the locked type. A clean sheet is laid on the tympan and the frisket folded down to mask the margins. He pulls the bar with a full body motion, and the platen presses the paper to the inked type with a deep satisfying thump. The printed sheet is lifted and inspected, impression even, ink neither starved nor squashed, the text block perfectly registered. It joins the growing stack on the drying rack, each sheet separated by a slip of paper. Two hundred impressions an hour is a good pace. By evening the edition is complete, and the type is distributed back into the cases, letter by letter. The apprentice feeds sheets while the master pulls, their rhythm synchronized by the hour, the finished stack mounting steadily."
+  },
+  {
+   "text_id": "s2h_78",
+   "src_num": 278,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "rope making",
+   "text": "The rope maker feeds the hemp fibers into the spinning jenny, drawing them out into a continuous sliver that twists into yarn on the whirling spindle. Three yarns are run together through the forming machine, each twisted one way while the strand lays the opposite, the opposing twists locking the rope against unraveling. She walks backward down the long ropewalk, feeding the machine steadily, the growing line stretching a hundred yards behind her. The finished rope is coiled in perfect flemish flakes, each loop laid clockwise and flat. It smells of tar and plant fiber, stiff and honest. She tests a length to breaking on the iron bollard, and it holds well past its rated strain. She whips the cut ends with twine to stop fraying. The coil is heavy and smells of honest work."
+  },
+  {
+   "text_id": "s2h_79",
+   "src_num": 279,
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "lantern making",
+   "text": "The lantern maker cuts the bamboo splints to length and soaks them until they bend without splitting, then weaves the frame into a rounded cage, each joint bound with fine copper wire. Rice paper is pasted over the skeleton in overlapping panels, translucent and warm looking even unlit. She paints the panels with ink wash mountains, quick confident strokes that will glow when the candle burns inside. The base is fitted with a brass candle cup and a ring for the carrying pole. When dusk comes she lights the first finished lantern, and the paper glows amber, the painted peaks floating in light. A dozen more wait on the bench, pale moths ready for flame. She hangs the finished lanterns in a row to dry the paste. They sway gently in the evening breeze. The paint dries as the sun sets."
+  }
+ ]
+}

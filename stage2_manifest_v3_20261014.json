@@ -1,0 +1,809 @@
+{
+ "bank_file": "stage2_texts_FROZEN_20261014.json",
+ "n_total": 100,
+ "n_train": 20,
+ "n_heldout": 80,
+ "word_count_regex": "[A-Za-z0-9']+",
+ "texts": [
+  {
+   "text_id": "s1_0",
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "word_count": 140,
+   "sha256": "57f63b88ce590db01846082f5a6800b84e035f4b33fd86dbb4fad768d8dd4dc1"
+  },
+  {
+   "text_id": "s1_1",
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "word_count": 140,
+   "sha256": "9fce59669b1f6eda1ac324559a77186fcbefadb7b11004ceae4bebbdb7b03212"
+  },
+  {
+   "text_id": "s1_2",
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "word_count": 140,
+   "sha256": "77339693e8a0d1ed45d0eaf2fb7c4af815c7bccf4e2087b6d8c0f674a81b0522"
+  },
+  {
+   "text_id": "s1_3",
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "word_count": 140,
+   "sha256": "894f9d355c3597a5e912e7fc49039f6b57ad8864107fa668706d3879c8e9373a"
+  },
+  {
+   "text_id": "s1_4",
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "word_count": 140,
+   "sha256": "8018919b6237ee26515e76cd4d524f0211e2c8224192e853afc3e489a8281013"
+  },
+  {
+   "text_id": "s1_5",
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "word_count": 140,
+   "sha256": "626663bf9423e94d14d37adfb8696c3f9e108e1a1b0539beca0700ac0834ede8"
+  },
+  {
+   "text_id": "s1_6",
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "word_count": 140,
+   "sha256": "37ac25a806382214e8472665b170a3d2d693840140becf1af30beda0c63782fc"
+  },
+  {
+   "text_id": "s1_7",
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "word_count": 140,
+   "sha256": "c5006cb58dc5c1a09eecb3661fdf73a456c02928aa189778e2ace3991ace7f27"
+  },
+  {
+   "text_id": "s1_8",
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "word_count": 140,
+   "sha256": "5f38f708de88eccd6cfcc1d8dcb3fe310ac2a4fb11466bbcd9b0d704ee9f45d3"
+  },
+  {
+   "text_id": "s1_9",
+   "split": "train",
+   "origin": "stage1",
+   "topic": "stage1",
+   "word_count": 140,
+   "sha256": "57430b2563751bc1a340ff47b1d8b2c2a6ae46dd8f5a217a2f0c8ca1401db332"
+  },
+  {
+   "text_id": "s2t_00",
+   "split": "train",
+   "origin": "stage2",
+   "topic": "blacksmithing",
+   "word_count": 143,
+   "sha256": "2c29fc5bae96340ed98b1c10a96c956730dbf9be25b469d0d8500f1496e7d9c1"
+  },
+  {
+   "text_id": "s2t_01",
+   "split": "train",
+   "origin": "stage2",
+   "topic": "clock repair",
+   "word_count": 135,
+   "sha256": "46bf18ce214a9bbe63b2e2d627d207ba31517f04ca4d949427b1b741b89a6b84"
+  },
+  {
+   "text_id": "s2t_02",
+   "split": "train",
+   "origin": "stage2",
+   "topic": "bread baking",
+   "word_count": 140,
+   "sha256": "199d549fe60f34698b4866ce060a45af672df4eabf33026d42483f266042cbff"
+  },
+  {
+   "text_id": "s2t_03",
+   "split": "train",
+   "origin": "stage2",
+   "topic": "sushi preparation",
+   "word_count": 140,
+   "sha256": "49235bfc1726f47d278c010a4ff380e7c8924b98dc4f322f971bf5a250be1ade"
+  },
+  {
+   "text_id": "s2t_04",
+   "split": "train",
+   "origin": "stage2",
+   "topic": "tide pools",
+   "word_count": 141,
+   "sha256": "f0982300f57cc2fbae367b815168554a3d4ee47099e9c6c157abc11dd5f3426c"
+  },
+  {
+   "text_id": "s2t_05",
+   "split": "train",
+   "origin": "stage2",
+   "topic": "waterfall",
+   "word_count": 138,
+   "sha256": "ac3f5450bb2d569a978e17bdfdc7863e8df89d79b1fc8b5200f6c740df69744b"
+  },
+  {
+   "text_id": "s2t_06",
+   "split": "train",
+   "origin": "stage2",
+   "topic": "sailing",
+   "word_count": 141,
+   "sha256": "29f12e41c8b53ae692321f962ec1bb90e73b85007e1da31d964bd6b257704d33"
+  },
+  {
+   "text_id": "s2t_07",
+   "split": "train",
+   "origin": "stage2",
+   "topic": "market morning",
+   "word_count": 139,
+   "sha256": "e3a72bfc77bdad7df43e9f693b287f346f68d96ccc77062aa25ec1e03456f93c"
+  },
+  {
+   "text_id": "s2t_08",
+   "split": "train",
+   "origin": "stage2",
+   "topic": "stargazing",
+   "word_count": 136,
+   "sha256": "be2239fc224ba023f801d8fab52695bf0f19a578de6b995b0e51b0a80018e92d"
+  },
+  {
+   "text_id": "s2t_09",
+   "split": "train",
+   "origin": "stage2",
+   "topic": "rock climbing",
+   "word_count": 138,
+   "sha256": "430e725a6230d8a4affbbc6f08136816ff22ddbdad2f8303beae5415cfd37266"
+  },
+  {
+   "text_id": "s2h_00",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "weaving",
+   "word_count": 135,
+   "sha256": "191b5a4d67e4724f22e69abbf63147ea010db6b50d3b1689df5e14f32a1bc574"
+  },
+  {
+   "text_id": "s2h_01",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "candle-making",
+   "word_count": 140,
+   "sha256": "98facdbea0e9ae3067dc890fcaa109602e1dab5ba428c75ffc149deae75c2d86"
+  },
+  {
+   "text_id": "s2h_02",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "soap-making",
+   "word_count": 136,
+   "sha256": "105a7ead2f4266cb953980e778e0e9cf55ab46330cb16b74abc9f957aa961e73"
+  },
+  {
+   "text_id": "s2h_03",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "calligraphy",
+   "word_count": 136,
+   "sha256": "5d5783b74716552b29f3f059db855736e1bf6c2adf1cfb29b28a19f2681ffbe6"
+  },
+  {
+   "text_id": "s2h_04",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "origami",
+   "word_count": 137,
+   "sha256": "f79528955a47310c9a439ec9bee0effea84c97b9e05485caf949c91baa6e9f32"
+  },
+  {
+   "text_id": "s2h_05",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "knitting",
+   "word_count": 139,
+   "sha256": "649ad425b0c2169e0e30a74eddb58a6ebe886c2aa950d3256c3d25be36944c06"
+  },
+  {
+   "text_id": "s2h_06",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "furniture woodworking",
+   "word_count": 139,
+   "sha256": "9823c48ce089425405de1860335d1bcc57bfe5202cffe02930a18955f8e30a31"
+  },
+  {
+   "text_id": "s2h_07",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "basket weaving",
+   "word_count": 138,
+   "sha256": "5ba2f949ea16da1d542f017bc02009887a65850ab59bf27fee8eedbf7158069e"
+  },
+  {
+   "text_id": "s2h_08",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "leatherworking",
+   "word_count": 135,
+   "sha256": "9e96c15c6ef702018a022c8581471569b663c2b89032106151ade4f3a507f406"
+  },
+  {
+   "text_id": "s2h_09",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "papermaking",
+   "word_count": 140,
+   "sha256": "2ed703d1c8d395865df265a1670cc1774c0d6afeb6fd1e86e2eedf50be7c0c4e"
+  },
+  {
+   "text_id": "s2h_10",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "printmaking",
+   "word_count": 140,
+   "sha256": "11f682303cd5281da2b68ba40d4e7f76be3cc1e79097645f4f85ed97b6068be1"
+  },
+  {
+   "text_id": "s2h_11",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "jewelry making",
+   "word_count": 140,
+   "sha256": "a9f35029ab70569a8f09a37fc304265f1f43c6906148c5ca9257006144024102"
+  },
+  {
+   "text_id": "s2h_12",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "shoemaking",
+   "word_count": 141,
+   "sha256": "9f0612aff777fc4a2d885630aacb30055aa4dc63a8fb2e8dc538d58dc4cddc33"
+  },
+  {
+   "text_id": "s2h_13",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "coffee roasting",
+   "word_count": 135,
+   "sha256": "71769e6913696bdde271b5e4b93260460c93c0e45d5c5291067bfb7db2ed39ab"
+  },
+  {
+   "text_id": "s2h_14",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "cheese making",
+   "word_count": 140,
+   "sha256": "d215ba47a0c782bd275e6c4d7a6c0663bee40bbda035f5c2b9497929a713a558"
+  },
+  {
+   "text_id": "s2h_15",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "wine making",
+   "word_count": 137,
+   "sha256": "2abac9d7b655233027919fadd276ccac7b9e2a165dfb9332c87ebd052bde61e6"
+  },
+  {
+   "text_id": "s2h_16",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "beer brewing",
+   "word_count": 140,
+   "sha256": "0571d42dc08c2b889494e91d137533b724ed9492b92c78d82b6dd9bbe601eeab"
+  },
+  {
+   "text_id": "s2h_17",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "chocolate making",
+   "word_count": 138,
+   "sha256": "b309a3f8078fe45098031f8e05b027d20357e1c4a2caca395e7d78d9b2fc9812"
+  },
+  {
+   "text_id": "s2h_18",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "pasta making",
+   "word_count": 140,
+   "sha256": "545037bd521ef73ea1f363b9c514088ce6c7a1d278cc50b75637ffb558168e7d"
+  },
+  {
+   "text_id": "s2h_19",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "barbecue smoking",
+   "word_count": 140,
+   "sha256": "8360a8cdf97c4370e12bd52d465f50286391e2259ee5953422f30ab19b5e50ca"
+  },
+  {
+   "text_id": "s2h_20",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "jam making",
+   "word_count": 138,
+   "sha256": "7ada07246090daebcf2152a52e79a5342f0e481378541c59dbeba103612dfd39"
+  },
+  {
+   "text_id": "s2h_21",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "honey harvesting",
+   "word_count": 135,
+   "sha256": "6a00f44a70216e1822bcd948bb7f6a4441bc2f05f05b84fa33e14ab2222072e9"
+  },
+  {
+   "text_id": "s2h_22",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "olive oil pressing",
+   "word_count": 139,
+   "sha256": "d1ca50facf7e81298f9dae545218d3fd49b7bc79552226f5413772c3ec25eaff"
+  },
+  {
+   "text_id": "s2h_23",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "desert dawn",
+   "word_count": 139,
+   "sha256": "4165ab99e73fca596fe4119a2985828c9eaa8cbd85db105bd86816d63a6dd12e"
+  },
+  {
+   "text_id": "s2h_24",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "mountain stream",
+   "word_count": 141,
+   "sha256": "1ded0ba0f8c6282c133a5fe53ba15888fd01885ee2b1c798e295475e8bebce53"
+  },
+  {
+   "text_id": "s2h_25",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "coral reef",
+   "word_count": 140,
+   "sha256": "421c11e82488122381a7a68226e014c7a278b02a163649859c9a0d1a3c928d54"
+  },
+  {
+   "text_id": "s2h_26",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "volcanic crater",
+   "word_count": 135,
+   "sha256": "8f35ecf2472c37f506d74b542c8753cb557b8d747e911e3386a900d92f6583fb"
+  },
+  {
+   "text_id": "s2h_27",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "glacier",
+   "word_count": 135,
+   "sha256": "65285cf86cfcfe10b05bd2d13b958ef06091e76fbd2529306ad81a0e17c4393c"
+  },
+  {
+   "text_id": "s2h_28",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "savanna",
+   "word_count": 138,
+   "sha256": "49c7e1cb13ed2fd0dc6403bef24c22a79bb160e9bd4a693d6575f950e877b2a9"
+  },
+  {
+   "text_id": "s2h_29",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "mangrove",
+   "word_count": 137,
+   "sha256": "606a08a26f8c64c58be25fdaf3988f5e367396ea1e8bd341be6c225ab7992b4a"
+  },
+  {
+   "text_id": "s2h_30",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "alpine meadow",
+   "word_count": 137,
+   "sha256": "853dbbca50c8a5b0b1188eba929757f16eacd4b19ad5687f77363c2c62bd5eb9"
+  },
+  {
+   "text_id": "s2h_31",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "redwood forest",
+   "word_count": 140,
+   "sha256": "caf1d965b4623357c925dc03807130270f6708e2a3f479568177d6cd5796f3c5"
+  },
+  {
+   "text_id": "s2h_32",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "cave exploration",
+   "word_count": 138,
+   "sha256": "52ce2d38d5a6933a5cec6c6ea00c80c21380edece94aba8560c73053f54053f9"
+  },
+  {
+   "text_id": "s2h_33",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "hot spring",
+   "word_count": 137,
+   "sha256": "68658aca6174a23761c495a68c719e22cffc977581a8a5a84a54992dc8b6aebe"
+  },
+  {
+   "text_id": "s2h_34",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "prairie storm",
+   "word_count": 139,
+   "sha256": "a103f2a656bb9d2a364d25847a247390ffd61867cd8d3f8664c2ddae63027cbe"
+  },
+  {
+   "text_id": "s2h_35",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "autumn forest",
+   "word_count": 139,
+   "sha256": "cd0bb5eec09bcf633f180eea8ecc86a9fabf392f749d554c641808f51e7b9807"
+  },
+  {
+   "text_id": "s2h_36",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "winter lake",
+   "word_count": 137,
+   "sha256": "f2537175e605385834566ae964dc14433ced623b50c9b5daf03a7d5036947d92"
+  },
+  {
+   "text_id": "s2h_37",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "spring meadow",
+   "word_count": 139,
+   "sha256": "ce5c28124f10e03a9080818ebe341e6466e98cd1c0a7f4482f42102e53ab046b"
+  },
+  {
+   "text_id": "s2h_38",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "coastal cliff",
+   "word_count": 135,
+   "sha256": "e899103363703f3e22934d2df98732b83af86b005c670ae774710407a7ed8d64"
+  },
+  {
+   "text_id": "s2h_39",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "river delta",
+   "word_count": 141,
+   "sha256": "f0992221e8c67c4f0a068d69da5a58384e0f3014e947f0e19a52499de4a4da51"
+  },
+  {
+   "text_id": "s2h_40",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "deep-sea fishing",
+   "word_count": 139,
+   "sha256": "f0bf0e142c2a43f894ee99171defc75336be62fbd2e0015084af0e377538682e"
+  },
+  {
+   "text_id": "s2h_41",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "lighthouse keeping",
+   "word_count": 141,
+   "sha256": "217c9e8bd4b5ede28715aa6db46293edf22fbc862cd4ea0c3eb7b35e71dab7b4"
+  },
+  {
+   "text_id": "s2h_42",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "boat building",
+   "word_count": 139,
+   "sha256": "a1897f6cfc316e892d0747ff0d87e62b1fcc645f288263ad4d64a3a22388d046"
+  },
+  {
+   "text_id": "s2h_43",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "pearl diving",
+   "word_count": 139,
+   "sha256": "a54130bf62bb32f48461b648513febb080752b677a8638c4581e16edd9bbe671"
+  },
+  {
+   "text_id": "s2h_44",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "kelp forest",
+   "word_count": 137,
+   "sha256": "51e8a6a69085cd521ccdb336818596d286eebe95fcdf8c0952615fd68b2ca205"
+  },
+  {
+   "text_id": "s2h_45",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "harbor at dawn",
+   "word_count": 137,
+   "sha256": "ad164ec42bfc22b02675baa387d81346c1ada5f514125e9c434b42d0ebf68904"
+  },
+  {
+   "text_id": "s2h_46",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "canal lock",
+   "word_count": 138,
+   "sha256": "44527a83a8600c5d35dd2165e9b27a1cb0ceed3239a9cf1548d5861efa2fc6fd"
+  },
+  {
+   "text_id": "s2h_47",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "ferry crossing",
+   "word_count": 137,
+   "sha256": "24f0b01ae9ff75931ad960e56c064f956563d1ed47558a3ff4039bcaa2ca8dfe"
+  },
+  {
+   "text_id": "s2h_48",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "ice fishing",
+   "word_count": 138,
+   "sha256": "581b71225f8e773f17c307ce3c4d0a6e2eae423fc20f32ba50427d522c05e9c6"
+  },
+  {
+   "text_id": "s2h_49",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "street food vendor",
+   "word_count": 140,
+   "sha256": "5f4445669a560d768557e624ac8685a83ef8c84866d05b17dfe9e4a394cbf449"
+  },
+  {
+   "text_id": "s2h_50",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "subway musician",
+   "word_count": 138,
+   "sha256": "a9ce706e2536da2f4083e3b51a54266295bf4f36ba1c3626c79769e42b01aa57"
+  },
+  {
+   "text_id": "s2h_51",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "old library",
+   "word_count": 135,
+   "sha256": "e4c8a6100587cd459f0f84d5e5376f4d649e5e760a7de9ace7983b1239eb6ab6"
+  },
+  {
+   "text_id": "s2h_52",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "museum gallery",
+   "word_count": 138,
+   "sha256": "f860e4b37cbfbee849b1e213ef9c8c9fdc39fd703ea08fcf31462e1dbbd98c25"
+  },
+  {
+   "text_id": "s2h_53",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "construction site",
+   "word_count": 138,
+   "sha256": "41a786a78c56c1db90d2ba1ab9347d3253bdb5dcb9370e788005f933e74b29fb"
+  },
+  {
+   "text_id": "s2h_54",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "train station",
+   "word_count": 139,
+   "sha256": "9fea3f40afc6a133f164b960f39f819b1774f01f10ab8161e2b737df2671b56b"
+  },
+  {
+   "text_id": "s2h_55",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "bakery at dawn",
+   "word_count": 137,
+   "sha256": "a3df17b74c677d9c52a626be0aa596f80cf9f119adb7640d622013ece64e10ba"
+  },
+  {
+   "text_id": "s2h_56",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "flower market",
+   "word_count": 140,
+   "sha256": "45cce76d0daca0325befafe9193529fe6627ff9887998dce712e1c4da569a811"
+  },
+  {
+   "text_id": "s2h_57",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "birdwatching",
+   "word_count": 135,
+   "sha256": "16b660171717ee1204521c75e016fe0f07ffe91265119bd6565aa257415b5d70"
+  },
+  {
+   "text_id": "s2h_58",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "vegetable gardening",
+   "word_count": 136,
+   "sha256": "000bd6fda2689dff95f1ddcf8037e6f0c7cfed92707fe5f0a08d8b9c6a4592fe"
+  },
+  {
+   "text_id": "s2h_59",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "beekeeping",
+   "word_count": 140,
+   "sha256": "b010b805b3e8e25ee0e569d0689d32efe6077d8262a35858d00a2eb1d40b1ee6"
+  },
+  {
+   "text_id": "s2h_60",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "maple sugaring",
+   "word_count": 138,
+   "sha256": "c50794841744755d4efddd47468f88c3a9914dc2d344f5115eccd4d5a6bc9740"
+  },
+  {
+   "text_id": "s2h_61",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "rice planting",
+   "word_count": 137,
+   "sha256": "4c241fef58014885895421c0b1859663d6fdcc1824a983b6284744fffcc2cb67"
+  },
+  {
+   "text_id": "s2h_62",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "sheep shearing",
+   "word_count": 138,
+   "sha256": "5edf60b8616ff5be7f909fe7336e9b994c269dca1d8a5154cda111d37f2067b6"
+  },
+  {
+   "text_id": "s2h_63",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "falconry",
+   "word_count": 136,
+   "sha256": "0524e69bcfab3c9ad8243d6d7637dd5a6257b2f29c9809e770312fffc432c202"
+  },
+  {
+   "text_id": "s2h_64",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "archery",
+   "word_count": 138,
+   "sha256": "78eadd79793279884610b6df42f3e52584551a99dad0a9cba912a66e22b313d9"
+  },
+  {
+   "text_id": "s2h_65",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "rowing",
+   "word_count": 137,
+   "sha256": "c185368586257940235ed9349cd1180dc1e66c811a59ed1f1fd6a92f65b36001"
+  },
+  {
+   "text_id": "s2h_66",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "open-water swimming",
+   "word_count": 135,
+   "sha256": "b94d437a8739d766f85868d398344d4f4cc95ea6cc63df5b29b4ef345fcabf1a"
+  },
+  {
+   "text_id": "s2h_67",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "ridge hiking",
+   "word_count": 140,
+   "sha256": "8c524557f9559b9393a3eea8a682d0866c45e0121b886c5e23b86d11c5030198"
+  },
+  {
+   "text_id": "s2h_68",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "hat making",
+   "word_count": 137,
+   "sha256": "6534ae04b6b11a549af328ded86f57cb3dc6640a3aa8c7c666200321d89385dc"
+  },
+  {
+   "text_id": "s2h_69",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "broom making",
+   "word_count": 140,
+   "sha256": "900b16112edc23b2c97631500d9425b14a0c8cca645655c2d141e980f264cdf3"
+  },
+  {
+   "text_id": "s2h_70",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "net mending",
+   "word_count": 141,
+   "sha256": "3c14ef5fd7db1ba9978d768ea1d9e2ffd1bb5ee31ad819fbee576ca0f963b6df"
+  },
+  {
+   "text_id": "s2h_71",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "thatching",
+   "word_count": 139,
+   "sha256": "3d53d2e0d33ac1c34e1dac62eef210b01cfab1286fc710d6b578ac4f8a92b860"
+  },
+  {
+   "text_id": "s2h_72",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "tile making",
+   "word_count": 141,
+   "sha256": "7fba25d2f7584afc184b745770e2a67dc1968f3acd1442c7e75b4aa2833a4bd5"
+  },
+  {
+   "text_id": "s2h_73",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "mushroom foraging",
+   "word_count": 138,
+   "sha256": "e8646857fe0d0d96bf8768e8c6ce6c811d1309a2f7396641ac13f368fe6d541f"
+  },
+  {
+   "text_id": "s2h_74",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "tea picking",
+   "word_count": 140,
+   "sha256": "5e1cdb97cad178068bab94ceda5fac8409118282b8d05e015173530fa8ef2070"
+  },
+  {
+   "text_id": "s2h_75",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "salt harvesting",
+   "word_count": 140,
+   "sha256": "1e2c2a0a5e822e86d1840ae9bcbf88bf682abc64144749f8e07e513a84922724"
+  },
+  {
+   "text_id": "s2h_76",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "cloud forest",
+   "word_count": 138,
+   "sha256": "43bd2a60bac2a1b27c5cdf09385f1f7113121191686e8020fd7259d080a33418"
+  },
+  {
+   "text_id": "s2h_77",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "book printing press",
+   "word_count": 143,
+   "sha256": "0027f01932d918a42fffd4b400d3d5f7b40340522e185153afe051c9801cb06e"
+  },
+  {
+   "text_id": "s2h_78",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "rope making",
+   "word_count": 135,
+   "sha256": "16b6904b4b6eed04e7f30184de30a3f846dafe8218a64712e31a0ee465db7342"
+  },
+  {
+   "text_id": "s2h_79",
+   "split": "heldout",
+   "origin": "stage2",
+   "topic": "lantern making",
+   "word_count": 141,
+   "sha256": "752b4727b85af73ccc92be075d1c2a86f44320a5f5db16a810fd3c079caf9b85"
+  }
+ ]
+}
